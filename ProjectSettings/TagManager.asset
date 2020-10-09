@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Ground
+  - Caterpillar
   - 
   - 
   - 
@@ -40,4 +40,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 4080550399
+    locked: 0
+  - name: Enemies
+    uniqueID: 4265223013
+    locked: 0
+  - name: Platforms
+    uniqueID: 2937939695
+    locked: 0
+  - name: Background
+    uniqueID: 3897662361
     locked: 0
