@@ -6,9 +6,12 @@ public class TongueController : MonoBehaviour
 {
     public Animator animator;
 
+    public Transform player;
+
     public Transform tonguePoint;
     public float tongueRange = 0.5f;
     public LayerMask caterpillarLayers;
+    public LayerMask wallLayers;
     
 
     // Update is called once per frame
@@ -17,6 +20,8 @@ public class TongueController : MonoBehaviour
         //tongue normal
         if (Input.GetButtonDown("Tongue"))
         {
+            animator.SetTrigger("TongueNormal");
+
             Tongue();
 
         }
@@ -24,6 +29,8 @@ public class TongueController : MonoBehaviour
         //tongue up
         if (Input.GetButtonDown("Tongue") && Input.GetAxisRaw("Vertical") > 0) 
         {
+            animator.SetTrigger("TongueUp");
+
             TongueUp();
 
         }
@@ -31,47 +38,37 @@ public class TongueController : MonoBehaviour
         //tongue down
         if (Input.GetButtonDown("Tongue") && Input.GetAxisRaw("Vertical") < 0) 
         {
+            animator.SetTrigger("TongueDown");
+
             TongueDown();
 
         }
 
 
+        CheckForCaterpillars();
+
+        CheckForWalls();
+
     }
 
     void Tongue()
     {
-        animator.SetTrigger("TongueNormal");
 
-        Collider2D[] hitCaterpillars = Physics2D.OverlapCircleAll(tonguePoint.position, tongueRange, caterpillarLayers);
+        
 
-        foreach(Collider2D caterpillar in hitCaterpillars)
-        {
-            Debug.Log("We hit " + caterpillar.name);
-        }
     }
-    
+
     void TongueUp()
     {
-        animator.SetTrigger("TongueUp");
 
-        Collider2D[] hitCaterpillars = Physics2D.OverlapCircleAll(tonguePoint.position, tongueRange, caterpillarLayers);
 
-        foreach(Collider2D caterpillar in hitCaterpillars)
-        {
-            Debug.Log("We hit " + caterpillar.name);
-        }
+
     }
-    
+
     void TongueDown()
     {
-        animator.SetTrigger("TongueDown");
 
-        Collider2D[] hitCaterpillars = Physics2D.OverlapCircleAll(tonguePoint.position, tongueRange, caterpillarLayers);
 
-        foreach(Collider2D caterpillar in hitCaterpillars)
-        {
-            Debug.Log("We hit " + caterpillar.name);
-        }
     }
 
     void OnDrawGizmosSelected()
@@ -81,6 +78,34 @@ public class TongueController : MonoBehaviour
 
         Gizmos.DrawWireSphere(tonguePoint.position, tongueRange);
 
+    }
+
+    void CheckForCaterpillars()
+    {
+        Collider2D[] hitCaterpillars = Physics2D.OverlapCircleAll(tonguePoint.position, tongueRange, caterpillarLayers);
+
+        foreach (Collider2D caterpillar in hitCaterpillars)
+        {
+            Debug.Log("We hit " + caterpillar.name);
+        }
+    }
+    
+    void CheckForWalls()
+    {
+        Collider2D[] hitWalls = Physics2D.OverlapCircleAll(tonguePoint.position, tongueRange, wallLayers);
+
+
+
+
+        foreach (Collider2D wall in hitWalls)
+        {
+            
+            player.transform.position = Vector3.Lerp(player.position, tonguePoint.position, 0.5f);
+            animator.SetTrigger("HitSomething");
+
+            Debug.Log("We hit " + wall.name);
+
+        }
     }
 
 
