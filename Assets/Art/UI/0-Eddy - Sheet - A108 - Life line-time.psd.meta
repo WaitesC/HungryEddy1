@@ -1,0 +1,1282 @@
+fileFormatVersion: 2
+guid: 8e897ff900948e4428646e41c99f53b1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2769561940963624942
+    second: 0-Eddy - Sheet - A108 - Life line-time_0
+  - first:
+      213: 1989595782582150432
+    second: 0-Eddy - Sheet - A108 - Life line-time_1
+  - first:
+      213: -1988225196824827169
+    second: 0-Eddy - Sheet - A108 - Life line-time_2
+  - first:
+      213: -1082028554327534711
+    second: 0-Eddy - Sheet - A108 - Life line-time_3
+  - first:
+      213: 5061856487002751420
+    second: 0-Eddy - Sheet - A108 - Life line-time_4
+  - first:
+      213: -512576553371261814
+    second: 0-Eddy - Sheet - A108 - Life line-time_5
+  - first:
+      213: -3388737906135145405
+    second: 0-Eddy - Sheet - A108 - Life line-time_6
+  - first:
+      213: -6051960970724231648
+    second: 0-Eddy - Sheet - A108 - Life line-time_7
+  - first:
+      213: -6835733094340065781
+    second: 0-Eddy - Sheet - A108 - Life line-time_8
+  - first:
+      213: 4970550666993375123
+    second: 0-Eddy - Sheet - A108 - Life line-time_9
+  - first:
+      213: 5665352797228285528
+    second: 0-Eddy - Sheet - A108 - Life line-time_10
+  - first:
+      213: -5949667398883464277
+    second: 0-Eddy - Sheet - A108 - Life line-time_11
+  - first:
+      213: -1579245015642871851
+    second: 0-Eddy - Sheet - A108 - Life line-time_12
+  - first:
+      213: -52190427001690024
+    second: 0-Eddy - Sheet - A108 - Life line-time_13
+  - first:
+      213: 5094407285277050089
+    second: 0-Eddy - Sheet - A108 - Life line-time_14
+  - first:
+      213: -520270173264132523
+    second: 0-Eddy - Sheet - A108 - Life line-time_15
+  - first:
+      213: -2757639689825123969
+    second: 0-Eddy - Sheet - A108 - Life line-time_16
+  - first:
+      213: -8990032684951101551
+    second: 0-Eddy - Sheet - A108 - Life line-time_17
+  - first:
+      213: 5878780853704275566
+    second: 0-Eddy - Sheet - A108 - Life line-time_18
+  - first:
+      213: -602574238175884832
+    second: 0-Eddy - Sheet - A108 - Life line-time_19
+  - first:
+      213: 1142013293053417776
+    second: 0-Eddy - Sheet - A108 - Life line-time_20
+  - first:
+      213: -8188020052378354603
+    second: 0-Eddy - Sheet - A108 - Life line-time_21
+  - first:
+      213: 7322279530512715282
+    second: 0-Eddy - Sheet - A108 - Life line-time_22
+  - first:
+      213: 8500279262779892899
+    second: 0-Eddy - Sheet - A108 - Life line-time_23
+  - first:
+      213: 1651896967167022600
+    second: 0-Eddy - Sheet - A108 - Life line-time_24
+  - first:
+      213: 6672509959021211157
+    second: 0-Eddy - Sheet - A108 - Life line-time_25
+  - first:
+      213: 820200813902131498
+    second: 0-Eddy - Sheet - A108 - Life line-time_26
+  - first:
+      213: 3031154446404568880
+    second: 0-Eddy - Sheet - A108 - Life line-time_27
+  - first:
+      213: 8002042194815516899
+    second: 0-Eddy - Sheet - A108 - Life line-time_28
+  - first:
+      213: 11984185806588108
+    second: 0-Eddy - Sheet - A108 - Life line-time_29
+  - first:
+      213: 6060471681558096160
+    second: 0-Eddy - Sheet - A108 - Life line-time_30
+  - first:
+      213: -1036869992950647437
+    second: 0-Eddy - Sheet - A108 - Life line-time_31
+  - first:
+      213: -4488961237156439383
+    second: 0-Eddy - Sheet - A108 - Life line-time_32
+  - first:
+      213: -7704923457261969897
+    second: 0-Eddy - Sheet - A108 - Life line-time_33
+  - first:
+      213: 3699067412547026069
+    second: 0-Eddy - Sheet - A108 - Life line-time_34
+  - first:
+      213: 2382687112482895106
+    second: 0-Eddy - Sheet - A108 - Life line-time_35
+  - first:
+      213: -3511467273666816176
+    second: 0-Eddy - Sheet - A108 - Life line-time_36
+  - first:
+      213: 6890246112457951342
+    second: 0-Eddy - Sheet - A108 - Life line-time_37
+  - first:
+      213: 1533986063599545225
+    second: 0-Eddy - Sheet - A108 - Life line-time_38
+  - first:
+      213: 4279410680979504972
+    second: 0-Eddy - Sheet - A108 - Life line-time_39
+  - first:
+      213: 984474234686464960
+    second: 0-Eddy - Sheet - A108 - Life line-time_40
+  - first:
+      213: 2276485870258678111
+    second: 0-Eddy - Sheet - A108 - Life line-time_41
+  - first:
+      213: 6472714589692440017
+    second: 0-Eddy - Sheet - A108 - Life line-time_42
+  - first:
+      213: -391249397817698341
+    second: 0-Eddy - Sheet - A108 - Life line-time_43
+  - first:
+      213: -1704168470046917323
+    second: 0-Eddy - Sheet - A108 - Life line-time_44
+  - first:
+      213: -7984182984288396262
+    second: 0-Eddy - Sheet - A108 - Life line-time_45
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5327.609
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218fb65a61a8099d0800000000000000
+      internalID: -2769561940963624942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5209.609
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025ac6ba2d67c9b10800000000000000
+      internalID: 1989595782582150432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5091.609
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda66c1b7b76864e0800000000000000
+      internalID: -1988225196824827169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4973.609
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9835a7e33ccdbf0f0800000000000000
+      internalID: -1082028554327534711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4855.609
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb14ec3f7a35f3640800000000000000
+      internalID: 5061856487002751420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4737.609
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84ac182756f2e8f0800000000000000
+      internalID: -512576553371261814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4619.609
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344e9e324d8c8f0d0800000000000000
+      internalID: -3388737906135145405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4501.609
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0263471df8d130ca0800000000000000
+      internalID: -6051960970724231648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4383.609
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b068a7cc7f89221a0800000000000000
+      internalID: -6835733094340065781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4265.609
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397983c1f71faf440800000000000000
+      internalID: 4970550666993375123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4147.609
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ebe0e4a506f9e40800000000000000
+      internalID: 5665352797228285528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4029.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab24ddf5098e6da0800000000000000
+      internalID: -5949667398883464277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3911.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7ec458605651ae0800000000000000
+      internalID: -1579245015642871851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3793.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85863e94515964ff0800000000000000
+      internalID: -52190427001690024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3675.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4c9144f68f2b640800000000000000
+      internalID: 5094407285277050089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3557.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5564c5fa801a7c8f0800000000000000
+      internalID: -520270173264132523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3439.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71847d0055eab9d0800000000000000
+      internalID: -2757639689825123969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3321.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f965e77ecfc3380800000000000000
+      internalID: -8990032684951101551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3203.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6639611a00a59150800000000000000
+      internalID: 5878780853704275566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3085.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e989b64ce933a7f0800000000000000
+      internalID: -602574238175884832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2967.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03919351a0f39df00800000000000000
+      internalID: 1142013293053417776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2849.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c7634f42f4e5e80800000000000000
+      internalID: -8188020052378354603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2731.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e035a1076fd9560800000000000000
+      internalID: 7322279530512715282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2613.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a46d9df3fe07f570800000000000000
+      internalID: 8500279262779892899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2495.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806198d1a87bce610800000000000000
+      internalID: 1651896967167022600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2377.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e27bb8474899c50800000000000000
+      internalID: 6672509959021211157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2259.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a217f1d6b40f16b00800000000000000
+      internalID: 820200813902131498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2141.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0374a45c8e2d01a20800000000000000
+      internalID: 3031154446404568880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2023.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e08aa3caf6fc0f60800000000000000
+      internalID: 8002042194815516899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1905.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc88ce1bd839a2000800000000000000
+      internalID: 11984185806588108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1787.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029a59672ee1b1450800000000000000
+      internalID: 6060471681558096160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1669.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3753ae72c3c4c91f0800000000000000
+      internalID: -1036869992950647437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1551.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aadac0d98104b1c0800000000000000
+      internalID: -4488961237156439383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1433.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e535420fc921590800000000000000
+      internalID: -7704923457261969897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1315.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cb615963ab55330800000000000000
+      internalID: 3699067412547026069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1197.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205b1760e41011120800000000000000
+      internalID: 2382687112482895106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1079.6086
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0571ea08e13c44fc0800000000000000
+      internalID: -3511467273666816176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 961.6087
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68821c45521f9f50800000000000000
+      internalID: 6890246112457951342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 843.6087
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b204b8230d94510800000000000000
+      internalID: 1533986063599545225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 725.6087
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fbbcf4755836b30800000000000000
+      internalID: 4279410680979504972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 607.6087
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3e209b91e89ad00800000000000000
+      internalID: 984474234686464960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 489.6087
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59e6f076d3b79f10800000000000000
+      internalID: 2276485870258678111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 371.6087
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd2b1b10a3b3d950800000000000000
+      internalID: 6472714589692440017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 253.6087
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd79d70eeb0029af0800000000000000
+      internalID: -391249397817698341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135.6087
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53dbe693ec39958e0800000000000000
+      internalID: -1704168470046917323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-time_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17.608696
+        width: 892
+        height: 118.391304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c95c7b0eb723190800000000000000
+      internalID: -7984182984288396262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

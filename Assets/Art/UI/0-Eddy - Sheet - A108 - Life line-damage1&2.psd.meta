@@ -1,0 +1,850 @@
+fileFormatVersion: 2
+guid: 76007f29b846d5a45ae58b1de6e43d78
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8837108241773236983
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_0
+  - first:
+      213: 7156282947081605524
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_1
+  - first:
+      213: 2293962137359191973
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_2
+  - first:
+      213: 5612926587158115069
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_3
+  - first:
+      213: 2739536871516380642
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_4
+  - first:
+      213: 858664473362231163
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_5
+  - first:
+      213: 1768967878124975520
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_6
+  - first:
+      213: 1108610227516175477
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_7
+  - first:
+      213: 1154285069383182882
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_8
+  - first:
+      213: 6048265725762851213
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_9
+  - first:
+      213: -7989955762783097299
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_10
+  - first:
+      213: 3495990278060301976
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_11
+  - first:
+      213: -3251725069420514062
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_12
+  - first:
+      213: -8340091670242538943
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_13
+  - first:
+      213: 8166646931780094990
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_14
+  - first:
+      213: 2204604165155632228
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_15
+  - first:
+      213: -427144823773340027
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_16
+  - first:
+      213: -1615208426231494457
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_17
+  - first:
+      213: 3206325428509591827
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_18
+  - first:
+      213: 2767388645501855708
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_19
+  - first:
+      213: 7951204921529505195
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_20
+  - first:
+      213: 1864693475052750040
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_21
+  - first:
+      213: 6566460774440811734
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_22
+  - first:
+      213: 675638414653555042
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_23
+  - first:
+      213: -7199266320338346373
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_24
+  - first:
+      213: -8816716198250003485
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_25
+  - first:
+      213: -4981842635266407532
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_26
+  - first:
+      213: 3533481570216441099
+    second: 0-Eddy - Sheet - A108 - Life line-damage1&2_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3201.4285
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f21298ff17b3aa70800000000000000
+      internalID: 8837108241773236983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3083.4285
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4911cfcbc69305360800000000000000
+      internalID: 7156282947081605524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2965.4285
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af8d75f86ac5df10800000000000000
+      internalID: 2293962137359191973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2847.4285
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2b7e11efe15ed40800000000000000
+      internalID: 5612926587158115069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2729.4285
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed91db154ac40620800000000000000
+      internalID: 2739536871516380642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2611.4285
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fe0040ac69aeb00800000000000000
+      internalID: 858664473362231163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2493.4285
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a537baa9e2ac8810800000000000000
+      internalID: 1768967878124975520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2375.4285
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5747775d023926f00800000000000000
+      internalID: 1108610227516175477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2257.4285
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a2f1aa728d40010800000000000000
+      internalID: 1154285069383182882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2139.4285
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81d34be1a1cfe350800000000000000
+      internalID: 6048265725762851213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2021.4286
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e6a3cf099fd1190800000000000000
+      internalID: -7989955762783097299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1903.4286
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ed006a2a0448030800000000000000
+      internalID: 3495990278060301976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1785.4286
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f435f9174d8fd2d0800000000000000
+      internalID: -3251725069420514062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1667.4286
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14acff840da024c80800000000000000
+      internalID: -8340091670242538943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1549.4286
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c49ce9d12c55170800000000000000
+      internalID: 8166646931780094990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1431.4286
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464b276cec3589e10800000000000000
+      internalID: 2204604165155632228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1313.4286
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ed75fbb0a721af0800000000000000
+      internalID: -427144823773340027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1195.4286
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8014c7e70a599e0800000000000000
+      internalID: -1615208426231494457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1077.4286
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319cd984df72f7c20800000000000000
+      internalID: 3206325428509591827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 959.4286
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd766929f4db76620800000000000000
+      internalID: 2767388645501855708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 841.4286
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba59a14bfba585e60800000000000000
+      internalID: 7951204921529505195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 723.4286
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4028306d8b0e910800000000000000
+      internalID: 1864693475052750040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 605.4286
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcb414a841c02b50800000000000000
+      internalID: 6566460774440811734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 487.4286
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2618806fe89506900800000000000000
+      internalID: 675638414653555042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 369.4286
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e9ccccc61171c90800000000000000
+      internalID: -7199266320338346373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 251.42857
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e340e5a45bb4a580800000000000000
+      internalID: -8816716198250003485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 133.42857
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493cc06a480fcdab0800000000000000
+      internalID: -4981842635266407532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A108 - Life line-damage1&2_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15.428574
+        width: 892
+        height: 118.57143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05f32554c2790130800000000000000
+      internalID: 3533481570216441099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
