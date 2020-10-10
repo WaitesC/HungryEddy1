@@ -20,6 +20,8 @@ public class TongueController : MonoBehaviour
     public float zipSpeed;
 
     public HealthController healthController;
+
+    public int caterpillarHealthPickup;
     
     void Start()
     {
@@ -103,7 +105,7 @@ public class TongueController : MonoBehaviour
 
             caterpillar.GetComponent<CaterpillarUnit>().TakeDamage(100);
 
-            healthController.HealthPickup(5);
+            healthController.HealthPickup(caterpillarHealthPickup);
         }
     }
     

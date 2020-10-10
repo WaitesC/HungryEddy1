@@ -2141,6 +2141,7 @@ MonoBehaviour:
     m_Bits: 1024
   zipSpeed: 0.5
   healthController: {fileID: 1683385321}
+  caterpillarHealthPickup: 10
 --- !u!61 &1683385320
 BoxCollider2D:
   m_ObjectHideFlags: 0
