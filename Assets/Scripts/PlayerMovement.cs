@@ -13,34 +13,45 @@ public class PlayerMovement : MonoBehaviour
 
     float horMove = 0f;
 
-    bool jump = false;
+    public bool jump = false;
+
+    public bool canMove;
 
     void Start()
     {
-
+        canMove = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        horMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        if(canMove)
+            horMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
         animator.SetFloat("Speed", Mathf.Abs(horMove));
 
-        if(Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump"))
         {
             jump = true;
             animator.SetTrigger("Jump");
-            
+
 
         }
 
-        
+
     }
 
     void FixedUpdate()
     {
+        JumpFunction();
+    }
+
+    
+
+    public void JumpFunction()
+    {
         controller.Move(horMove * Time.fixedDeltaTime, false, jump);
         jump = false;
+
     }
 }
