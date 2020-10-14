@@ -23,9 +23,15 @@ public class PlayerMovement : MonoBehaviour
 
     public bool climbing;
 
+    public AudioSource source;
+    public AudioClip jumpSound;
+
+
     void Start()
     {
         canMove = true;
+
+        //source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -63,6 +69,8 @@ public class PlayerMovement : MonoBehaviour
                 climbing = false;
                 canMove = true;
                 playerRigidBody.gravityScale = 10f;
+
+                source.PlayOneShot(jumpSound, 0.7f);
 
             }
         }
