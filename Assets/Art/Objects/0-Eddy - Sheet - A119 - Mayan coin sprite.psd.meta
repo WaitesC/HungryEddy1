@@ -11,6 +11,21 @@ TextureImporter:
   - first:
       213: -6593895100753076831
     second: 0-Eddy - Sheet - A119 - Mayan coin sprite_2
+  - first:
+      213: 5263758179813000268
+    second: 0-Eddy - Sheet - A119 - Mayan coin sprite_0
+  - first:
+      213: -6765428747882593095
+    second: 0-Eddy - Sheet - A119 - Mayan coin sprite_1
+  - first:
+      213: 5742052159424049555
+    second: 0-Eddy - Sheet - A119 - Mayan coin sprite_2
+  - first:
+      213: 2686872332872689543
+    second: 0-Eddy - Sheet - A119 - Mayan coin sprite_3
+  - first:
+      213: 1259986490272141602
+    second: 0-Eddy - Sheet - A119 - Mayan coin sprite_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -175,8 +190,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1096.3334
-        height: 1080
+        width: 1626.2
+        height: 1631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,8 +199,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2501af47c8666e00800000000000000
-      internalID: 1037631969399211309
+      spriteID: c448f4b0d20ac0940800000000000000
+      internalID: 5263758179813000268
       vertices: []
       indices: 
       edges: []
@@ -194,10 +209,10 @@ TextureImporter:
       name: 0-Eddy - Sheet - A119 - Mayan coin sprite_1
       rect:
         serializedVersion: 2
-        x: 1096
+        x: 1626
         y: 0
-        width: 1096.3334
-        height: 1080
+        width: 1626.2
+        height: 1631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,8 +220,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f4bd5c2711f11ad0800000000000000
-      internalID: -2733138417006299914
+      spriteID: 9b40e39066e5c12a0800000000000000
+      internalID: -6765428747882593095
       vertices: []
       indices: 
       edges: []
@@ -215,10 +230,10 @@ TextureImporter:
       name: 0-Eddy - Sheet - A119 - Mayan coin sprite_2
       rect:
         serializedVersion: 2
-        x: 2192
+        x: 3252
         y: 0
-        width: 1096.3334
-        height: 1080
+        width: 1626.2
+        height: 1631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,8 +241,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ad9c618757cd74a0800000000000000
-      internalID: -6593895100753076831
+      spriteID: 3913c3c240edfaf40800000000000000
+      internalID: 5742052159424049555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A119 - Mayan coin sprite_3
+      rect:
+        serializedVersion: 2
+        x: 4878
+        y: 0
+        width: 1626.2
+        height: 1631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787a3bda620b94520800000000000000
+      internalID: 2686872332872689543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A119 - Mayan coin sprite_4
+      rect:
+        serializedVersion: 2
+        x: 6504
+        y: 0
+        width: 1626.2
+        height: 1631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2215676890f5c7110800000000000000
+      internalID: 1259986490272141602
       vertices: []
       indices: 
       edges: []

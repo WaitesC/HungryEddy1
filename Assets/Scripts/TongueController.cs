@@ -22,6 +22,10 @@ public class TongueController : MonoBehaviour
     public HealthController healthController;
 
     public int caterpillarHealthPickup;
+
+    public PlayerMovement playerMovement;
+
+    
     
     void Start()
     {
@@ -36,7 +40,6 @@ public class TongueController : MonoBehaviour
         {
             animator.SetTrigger("TongueNormal");
 
-            Tongue();
 
         }
 
@@ -45,7 +48,6 @@ public class TongueController : MonoBehaviour
         {
             animator.SetTrigger("TongueUp");
 
-            TongueUp();
 
         }
         
@@ -54,7 +56,6 @@ public class TongueController : MonoBehaviour
         {
             animator.SetTrigger("TongueDown");
 
-            TongueDown();
 
         }
 
@@ -65,25 +66,6 @@ public class TongueController : MonoBehaviour
 
     }
 
-    void Tongue()
-    {
-
-        
-
-    }
-
-    void TongueUp()
-    {
-
-
-
-    }
-
-    void TongueDown()
-    {
-
-
-    }
 
     void OnDrawGizmosSelected()
     {
@@ -100,8 +82,6 @@ public class TongueController : MonoBehaviour
 
         foreach (Collider2D caterpillar in hitCaterpillars)
         {
-            //Debug.Log("We hit " + caterpillar.name);
-            //caterpillar.name.SetActive(false);
 
             caterpillar.GetComponent<CaterpillarUnit>().TakeDamage(100);
 
@@ -126,12 +106,25 @@ public class TongueController : MonoBehaviour
 
             rb.MovePosition(wallPosition.position);
 
+            WallMovement();
+
             //make the zip slower (maybe?)
             //rb.MovePosition(wallPosition.position +transform.position*Time.fixedDeltaTime);
 
             Debug.Log("We hit " + wall.name);
 
         }
+    }
+
+    void WallMovement()
+    {
+        rb.velocity = new Vector2(0, 0);
+        rb.gravityScale = 0.5f;
+
+        playerMovement.climbing = true;
+
+
+        
     }
 
 

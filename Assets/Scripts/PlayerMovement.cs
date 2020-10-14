@@ -7,15 +7,21 @@ public class PlayerMovement : MonoBehaviour
 
     public CharacterController2D controller;
 
+    public Rigidbody2D playerRigidBody;
+
     public Animator animator;
 
     public float runSpeed = 40f;
+    public float climbSpeed = 40f;
 
     float horMove = 0f;
+    float verMove = 0f;
 
     public bool jump = false;
 
     public bool canMove;
+
+    public bool climbing;
 
     void Start()
     {
@@ -38,6 +44,28 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
+        if(climbing)
+        {
+            verMove = Input.GetAxisRaw("Vertical") * climbSpeed;
+            canMove = false;
+
+            //Vector2 movement = new Vector2(0, verMove);
+
+            //playerRigidBody.AddForce(movement * 1);
+
+            controller.verticalMove(verMove * Time.fixedDeltaTime);
+
+            //Vector2 movement = new Vector2(1, climbSpeed);
+            //transform.Translate(movement * Time.deltaTime);
+
+            if (Input.GetButtonDown("Jump"))
+            {
+                climbing = false;
+                canMove = true;
+                playerRigidBody.gravityScale = 10f;
+
+            }
+        }
 
     }
 
@@ -54,4 +82,6 @@ public class PlayerMovement : MonoBehaviour
         jump = false;
 
     }
+
+    
 }
