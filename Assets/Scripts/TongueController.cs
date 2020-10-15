@@ -6,6 +6,9 @@ public class TongueController : MonoBehaviour
 {
     public Animator animator;
 
+    public CharacterController2D controller;
+
+
     public Transform player;
     public Transform wallPosition;
 
@@ -106,12 +109,16 @@ public class TongueController : MonoBehaviour
 
             rb.MovePosition(wallPosition.position);
 
-            WallMovement();
+            //animator.SetBool("OnWall", true);
+
+            
+
+            //WallMovement();
 
             //make the zip slower (maybe?)
             //rb.MovePosition(wallPosition.position +transform.position*Time.fixedDeltaTime);
 
-            Debug.Log("We hit " + wall.name);
+            //Debug.Log("We hit " + wall.name);
 
         }
     }
@@ -119,12 +126,13 @@ public class TongueController : MonoBehaviour
     void WallMovement()
     {
         rb.velocity = new Vector2(0, 0);
-        rb.gravityScale = 0.5f;
+        rb.gravityScale = 0.0f;
 
         playerMovement.climbing = true;
 
+        //controller.m_Grounded = true;
+        //playerMovement.jump = true;
 
-        
     }
 
 
