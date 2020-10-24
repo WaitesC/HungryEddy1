@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3570187440717935038}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -53.84, z: 0}
+  m_LocalPosition: {x: 0, y: 5.214998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6184764095365820522}
@@ -204,7 +204,11 @@ MonoBehaviour:
   playerRigidbody: {fileID: 0}
   playerPos: {fileID: 0}
   player: {fileID: 0}
-  damage: 10
+  source: {fileID: 0}
+  playerHurtSound: {fileID: 8300000, guid: 01e9176fe50e4d4488fe076d021f44e8, type: 3}
+  enemySound: {fileID: 8300000, guid: f62339e591f8f224fb7df541a11098e1, type: 3}
+  distanceToPlayer: 0
+  damage: 100
   thrust: 5
 --- !u!61 &7027835163879103931
 BoxCollider2D:

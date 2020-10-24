@@ -13,12 +13,37 @@ public class GameManager : MonoBehaviour
     public Animator animator;
 
     public Text coinText;
+    public Text xPText;
 
-    public GameObject gameOverText;
-    public GameObject gameOverBackground;
+    
+
+    public GameObject tutorialStuff;
+
+    public GameObject gameUIStuff;
+
+    public GameObject gameOverStuff;
+
+    public GameObject endLevelStuff;
+
+    public PlayerMovement playerMovement;
+
+    public Rigidbody2D rb;
+
 
     public int currentCoins;
     public int maxCoins;
+
+    public int xPPoints;
+
+
+    bool gameStart = true;
+    public bool levelOver = false;
+
+    void Start()
+    {
+        gameStart = true;
+
+    }
 
 
     public void GameOver()
@@ -29,20 +54,44 @@ public class GameManager : MonoBehaviour
             Invoke("GameOverScreen", 1f);
 
             animator.Play("Eddy_Dead");
+
         }
     }
 
     void Update()
     {
-        if(gameHasEnded)
+        if (Input.GetKey("escape"))
         {
-            if (Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.Space))
+            Application.Quit();
+        }
+
+        if (gameStart)
+        {
+            StartGameScreen();
+
+        }
+
+        if (gameHasEnded)
+        {
+            if (Input.GetButtonDown("Jump"))
             {
                 Restart();
             }
         }
 
-        coinText.text = "Coins = " + currentCoins + " /" + maxCoins;
+        if(levelOver)
+        {
+            EndLevel();
+
+            if (Input.GetButtonDown("Jump"))
+            {
+                Restart();
+            }
+        }
+
+        coinText.text = currentCoins + " /" + maxCoins;
+
+        xPText.text = " " + xPPoints;
     }
 
     void Restart()
@@ -54,10 +103,50 @@ public class GameManager : MonoBehaviour
     {
         gameHasEnded = true;
 
-        gameOverText.SetActive(true);
-        gameOverBackground.SetActive(true);
+        gameOverStuff.SetActive(true);
+
+        gameUIStuff.SetActive(false);
 
 
 
     }
+
+    void StartGameScreen()
+    {
+
+        gameUIStuff.SetActive(false);
+        gameOverStuff.SetActive(false);
+        endLevelStuff.SetActive(false);
+
+
+        playerMovement.canMove = false;
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            gameStart = false;
+            gameUIStuff.SetActive(true);
+            tutorialStuff.SetActive(false);
+            playerMovement.canMove = true;
+
+        }
+
+    }
+
+    public void EndLevel()
+    {
+        //rb.velocity = new Vector2(0, 0);
+        //rb.gravityScale = 0.0f;
+        rb.inertia = 0.0f;
+        rb.constraints = RigidbodyConstraints2D.FreezePosition;
+        //playerMovement.animator.Play("Eddy_Idle_2");
+        playerMovement.animator.SetTrigger("HitSomething");
+        playerMovement.canMove = false;
+        gameUIStuff.SetActive(false);
+        endLevelStuff.SetActive(true);
+
+
+
+        
+    }
+
 }

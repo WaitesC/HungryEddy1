@@ -133,7 +133,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Tongue"))
         {
             //jump sound effect
-            source.PlayOneShot(tongueSound, 0.7f);
+            //source.PlayOneShot(tongueSound, 0.7f);
         }
         
         if (Input.GetButtonDown("Swing"))

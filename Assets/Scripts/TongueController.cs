@@ -28,8 +28,17 @@ public class TongueController : MonoBehaviour
 
     public PlayerMovement playerMovement;
 
-    
-    
+    //tongue delay
+    public float tongueAttackRate = 2f;
+    float nextAttackTime = 0f;
+
+    //sound stuff
+    public AudioSource source;
+    public AudioClip tongueSound;
+
+
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -38,31 +47,42 @@ public class TongueController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //tongue normal
-        if (Input.GetButtonDown("Tongue"))
+        if (Time.time >= nextAttackTime)
         {
-            animator.SetTrigger("TongueNormal");
+            //tongue normal
+            if (Input.GetButtonDown("Tongue"))
+            {
+                animator.SetTrigger("TongueNormal");
 
+                nextAttackTime = Time.time + 1f / tongueAttackRate;
+
+                source.PlayOneShot(tongueSound, 0.3f);
+
+            }
+
+            //tongue up
+            if (Input.GetButtonDown("Tongue") && Input.GetAxisRaw("Vertical") > 0)
+            {
+                animator.SetTrigger("TongueUp");
+
+                nextAttackTime = Time.time + 1f / tongueAttackRate;
+
+                source.PlayOneShot(tongueSound, 0.3f);
+
+            }
+
+            //tongue down
+            if (Input.GetButtonDown("Tongue") && Input.GetAxisRaw("Vertical") < 0)
+            {
+                animator.SetTrigger("TongueDown");
+
+                nextAttackTime = Time.time + 1f / tongueAttackRate;
+
+                source.PlayOneShot(tongueSound, 0.3f);
+
+            }
 
         }
-
-        //tongue up
-        if (Input.GetButtonDown("Tongue") && Input.GetAxisRaw("Vertical") > 0) 
-        {
-            animator.SetTrigger("TongueUp");
-
-
-        }
-        
-        //tongue down
-        if (Input.GetButtonDown("Tongue") && Input.GetAxisRaw("Vertical") < 0) 
-        {
-            animator.SetTrigger("TongueDown");
-
-
-        }
-
-
         CheckForCaterpillars();
 
         CheckForWalls();
@@ -89,6 +109,9 @@ public class TongueController : MonoBehaviour
             caterpillar.GetComponent<CaterpillarUnit>().TakeDamage(100);
 
             healthController.HealthPickup(caterpillarHealthPickup);
+
+            FindObjectOfType<GameManager>().xPPoints += 100;
+
         }
     }
     

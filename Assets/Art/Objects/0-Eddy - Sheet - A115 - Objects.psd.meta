@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 05dcd6682e2d25e4faf184cccf907587
+guid: 60c01a88189c0564b81bf5aea4036173
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -13,18 +13,6 @@ TextureImporter:
     second: 0-Eddy - Sheet - A115 - Objects_2
   - first:
       213: 5561647430116444457
-    second: 0-Eddy - Sheet - A115 - Objects_3
-  - first:
-      213: -1491786413919447445
-    second: 0-Eddy - Sheet - A115 - Objects_0
-  - first:
-      213: 89927226754049861
-    second: 0-Eddy - Sheet - A115 - Objects_1
-  - first:
-      213: -2094905408930409792
-    second: 0-Eddy - Sheet - A115 - Objects_2
-  - first:
-      213: 523036671150381283
     second: 0-Eddy - Sheet - A115 - Objects_3
   - first:
       213: -4303711999732421076
@@ -47,6 +35,9 @@ TextureImporter:
   - first:
       213: 1987474939052730176
     second: 0-Eddy - Sheet - A115 - Objects_10
+  - first:
+      213: 8290475461408350653
+    second: 0-Eddy - Sheet - A115 - Objects_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -88,7 +79,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -209,19 +200,19 @@ TextureImporter:
       name: 0-Eddy - Sheet - A115 - Objects_0
       rect:
         serializedVersion: 2
-        x: 228
-        y: 1769
-        width: 255
-        height: 272
+        x: 232
+        y: 1768
+        width: 241
+        height: 274
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b66d39d092c1c4be0800000000000000
-      internalID: -1491786413919447445
+      spriteID: 373f27456778d2ea0800000000000000
+      internalID: -5895907394865400973
       vertices: []
       indices: 
       edges: []
@@ -230,19 +221,19 @@ TextureImporter:
       name: 0-Eddy - Sheet - A115 - Objects_1
       rect:
         serializedVersion: 2
-        x: 678
-        y: 1768
-        width: 435
-        height: 454
+        x: 740
+        y: 1713
+        width: 266
+        height: 317
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 547af46165c7f3100800000000000000
-      internalID: 89927226754049861
+      spriteID: 51b5ed67e98285790800000000000000
+      internalID: -7541232914967667947
       vertices: []
       indices: 
       edges: []
@@ -251,19 +242,19 @@ TextureImporter:
       name: 0-Eddy - Sheet - A115 - Objects_2
       rect:
         serializedVersion: 2
-        x: 1250
-        y: 1768
-        width: 609
-        height: 617
+        x: 1310
+        y: 1806
+        width: 380
+        height: 257
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c298ae31a66de2e0800000000000000
-      internalID: -2094905408930409792
+      spriteID: 55578999256d56eb0800000000000000
+      internalID: -4727136583602899627
       vertices: []
       indices: 
       edges: []
@@ -272,19 +263,19 @@ TextureImporter:
       name: 0-Eddy - Sheet - A115 - Objects_3
       rect:
         serializedVersion: 2
-        x: 197
-        y: 978
-        width: 495
-        height: 626
+        x: 336
+        y: 1037
+        width: 410
+        height: 397
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e8db6cc413324700800000000000000
-      internalID: 523036671150381283
+      spriteID: 9290e0eeed0fe2d40800000000000000
+      internalID: 5561647430116444457
       vertices: []
       indices: 
       edges: []
@@ -293,12 +284,12 @@ TextureImporter:
       name: 0-Eddy - Sheet - A115 - Objects_4
       rect:
         serializedVersion: 2
-        x: 933
-        y: 977
-        width: 497
-        height: 627
+        x: 1133
+        y: 1041
+        width: 255
+        height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -314,12 +305,12 @@ TextureImporter:
       name: 0-Eddy - Sheet - A115 - Objects_5
       rect:
         serializedVersion: 2
-        x: 1671
-        y: 976
-        width: 497
-        height: 628
+        x: 1856
+        y: 1129
+        width: 313
+        height: 322
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -335,12 +326,12 @@ TextureImporter:
       name: 0-Eddy - Sheet - A115 - Objects_6
       rect:
         serializedVersion: 2
-        x: 332
-        y: 365
+        x: 333
+        y: 367
         width: 297
-        height: 298
+        height: 295
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -356,12 +347,12 @@ TextureImporter:
       name: 0-Eddy - Sheet - A115 - Objects_7
       rect:
         serializedVersion: 2
-        x: 747
-        y: 367
-        width: 295
-        height: 295
+        x: 746
+        y: 366
+        width: 297
+        height: 297
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -378,11 +369,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1159
-        y: 367
+        y: 366
         width: 296
-        height: 295
+        height: 296
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -401,9 +392,9 @@ TextureImporter:
         x: 1572
         y: 366
         width: 297
-        height: 296
+        height: 298
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -424,7 +415,7 @@ TextureImporter:
         width: 332
         height: 321
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -432,6 +423,27 @@ TextureImporter:
       bones: []
       spriteID: 047aa3e4dede49b10800000000000000
       internalID: 1987474939052730176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A115 - Objects_11
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 366
+        width: 297
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db16650e18fad0370800000000000000
+      internalID: 8290475461408350653
       vertices: []
       indices: 
       edges: []

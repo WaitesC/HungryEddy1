@@ -12,6 +12,13 @@ public class EnemyDamageController : MonoBehaviour
 
     public GameObject player;
 
+    public AudioSource source;
+    //sounds
+    public AudioClip playerHurtSound;
+
+
+
+
     //var playerMaterialRenderer;
 
     Vector3 dir;
@@ -29,16 +36,21 @@ public class EnemyDamageController : MonoBehaviour
     void Update()
     {
         dir = (playerPos.position - transform.position).normalized;
+
+        
     }
 
     void OnTriggerStay2D(Collider2D col)
     {
         healthController.currentHealth -= damage;
 
-        Debug.Log("getting hit");
+        source.PlayOneShot(playerHurtSound, 0.3f);
+
 
         playerRigidbody.AddForce(dir * thrust, ForceMode2D.Impulse);
     }
+
+    
 
     //IEnumerator Flasher()
     //{
