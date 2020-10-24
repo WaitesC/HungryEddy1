@@ -94,8 +94,8 @@ GameObject:
   - component: {fileID: 6184764095365820520}
   - component: {fileID: 6184764095365820523}
   - component: {fileID: 6184764095365820521}
-  - component: {fileID: 7027835163879103931}
   - component: {fileID: 3446388291384579836}
+  - component: {fileID: 7426286730987534520}
   m_Layer: 0
   m_Name: Spikes
   m_TagString: Untagged
@@ -206,36 +206,8 @@ MonoBehaviour:
   player: {fileID: 0}
   source: {fileID: 0}
   playerHurtSound: {fileID: 8300000, guid: 01e9176fe50e4d4488fe076d021f44e8, type: 3}
-  enemySound: {fileID: 8300000, guid: f62339e591f8f224fb7df541a11098e1, type: 3}
-  distanceToPlayer: 0
   damage: 100
   thrust: 5
---- !u!61 &7027835163879103931
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6184764095365820437}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 2.0316343}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.080955, y: 10.860001}
-    newSize: {x: 7.080955, y: 10.860001}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.080955, y: 5.652998}
-  m_EdgeRadius: 0
 --- !u!61 &3446388291384579836
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -262,3 +234,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.080955, y: 4.582987}
   m_EdgeRadius: 0
+--- !u!70 &7426286730987534520
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6184764095365820437}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 4.989024, y: 9.65823}
+  m_Direction: 0

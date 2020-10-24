@@ -144,9 +144,6 @@ public class GameManager : MonoBehaviour
         gameUIStuff.SetActive(false);
         endLevelStuff.SetActive(true);
 
-
-
-        
     }
 
 }

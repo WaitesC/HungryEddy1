@@ -20,14 +20,27 @@ public class CaterpillarUnit : MonoBehaviour
         currentHealth -= damage;
 
         //play hurt animation
+        //Debug.Log("Enemy died");
 
         if (currentHealth <= 0)
             Die();
     }
 
-    void Die()
+
+    void OnTriggerEnter2D(Collider2D col)
     {
-        Debug.Log("Enemy died");
+        if (col.gameObject.name == "Spikes")
+        {
+            Destroy(gameObject);
+            //Debug.Log("Enemy died");
+
+        }
+    }
+    
+
+void Die()
+    {
+        //Debug.Log("Enemy died");
 
         //die animation
 

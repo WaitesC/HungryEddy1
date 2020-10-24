@@ -42,12 +42,16 @@ public class EnemyDamageController : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D col)
     {
-        healthController.currentHealth -= damage;
+        if(col.gameObject.name == "Player")
+        {
+            healthController.currentHealth -= damage;
 
-        source.PlayOneShot(playerHurtSound, 0.3f);
+            source.PlayOneShot(playerHurtSound, 0.3f);
 
 
-        playerRigidbody.AddForce(dir * thrust, ForceMode2D.Impulse);
+            playerRigidbody.AddForce(dir * thrust, ForceMode2D.Impulse);
+        }
+        
     }
 
     

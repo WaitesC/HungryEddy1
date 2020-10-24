@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using UnityEngine;
 
 public class AlertBox : MonoBehaviour
@@ -20,6 +21,8 @@ public class AlertBox : MonoBehaviour
 
     bool escapeTime;
 
+    public GameObject otherBox;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,25 +40,43 @@ public class AlertBox : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
+        if (col.gameObject.name == "Player")
+        {
+            animator.Play("Caterpillar_Purple_Alert");
 
-        animator.Play("Caterpillar_Purple_Alert");
+            escapeTime = true;
 
-        escapeTime = true;
+            if (escapeTime && escapeLeft)
+                caterpillarSpriteRenderer.flipX = true;
 
-        if(escapeTime && escapeLeft)
-            caterpillarSpriteRenderer.flipX = true;
+        }
+
+        
+
 
     }
 
     void Right()
     {
         if (escapeTime)
+        {
             caterpillar.transform.Translate(Vector3.right * Time.deltaTime * fleeSpeed);
+
+            Destroy(otherBox.GetComponent<Collider2D>());
+            Destroy(gameObject.GetComponent<Collider2D>());
+
+        }
     }
     
     void Left()
     {
         if (escapeTime)
+        {
             caterpillar.transform.Translate(Vector3.left * Time.deltaTime * fleeSpeed);
+
+            Destroy(otherBox.GetComponent<Collider2D>());
+            Destroy(gameObject.GetComponent<Collider2D>());
+
+        }
     }
 }

@@ -38,6 +38,9 @@ TextureImporter:
   - first:
       213: 8290475461408350653
     second: 0-Eddy - Sheet - A115 - Objects_11
+  - first:
+      213: -2955214661047632977
+    second: 0-Eddy - Sheet - A115 - Objects_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -200,10 +203,10 @@ TextureImporter:
       name: 0-Eddy - Sheet - A115 - Objects_0
       rect:
         serializedVersion: 2
-        x: 232
+        x: 227
         y: 1768
-        width: 241
-        height: 274
+        width: 256
+        height: 273
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,10 +224,10 @@ TextureImporter:
       name: 0-Eddy - Sheet - A115 - Objects_1
       rect:
         serializedVersion: 2
-        x: 740
-        y: 1713
-        width: 266
-        height: 317
+        x: 668
+        y: 1768
+        width: 443
+        height: 454
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,10 +245,10 @@ TextureImporter:
       name: 0-Eddy - Sheet - A115 - Objects_2
       rect:
         serializedVersion: 2
-        x: 1310
-        y: 1806
-        width: 380
-        height: 257
+        x: 1247
+        y: 1768
+        width: 611
+        height: 617
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,12 +266,12 @@ TextureImporter:
       name: 0-Eddy - Sheet - A115 - Objects_3
       rect:
         serializedVersion: 2
-        x: 336
-        y: 1037
-        width: 410
-        height: 397
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 195
+        y: 976
+        width: 497
+        height: 628
+      alignment: 9
+      pivot: {x: 0.40685478, y: 0.025458172}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -284,12 +287,12 @@ TextureImporter:
       name: 0-Eddy - Sheet - A115 - Objects_4
       rect:
         serializedVersion: 2
-        x: 1133
-        y: 1041
-        width: 255
-        height: 220
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 933
+        y: 976
+        width: 497
+        height: 628
+      alignment: 9
+      pivot: {x: 0.3952116, y: 0.025458172}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -305,12 +308,12 @@ TextureImporter:
       name: 0-Eddy - Sheet - A115 - Objects_5
       rect:
         serializedVersion: 2
-        x: 1856
-        y: 1129
-        width: 313
-        height: 322
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1671
+        y: 976
+        width: 496
+        height: 628
+      alignment: 9
+      pivot: {x: 0.40083387, y: 0.007029442}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
