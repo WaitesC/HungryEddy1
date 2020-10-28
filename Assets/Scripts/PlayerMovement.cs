@@ -31,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
     public AudioClip jumpSound;
     public AudioClip tongueSound;
     public AudioClip tailSound;
+    public ParticleSystem dust;
 
 
     void Start()
@@ -54,7 +55,8 @@ public class PlayerMovement : MonoBehaviour
             animator.SetTrigger("Jump");
             //sound effect
             source.PlayOneShot(jumpSound, 0.2f);
-
+            // particle jump effect
+            CreateDust();
 
         }
 
@@ -143,5 +145,8 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
-
+    void CreateDust()
+    {
+        dust.Play();
+    }
 }
