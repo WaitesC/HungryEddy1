@@ -17,6 +17,27 @@ TextureImporter:
   - first:
       213: 843660610954833934
     second: 0-Eddy - Sheet - A114 - Eddy sprite jump_4
+  - first:
+      213: 4002228885354149116
+    second: 0-Eddy - Sheet - A114 - Eddy sprite jump_0
+  - first:
+      213: -7750296326226247665
+    second: 0-Eddy - Sheet - A114 - Eddy sprite jump_1
+  - first:
+      213: -1519198714558889270
+    second: 0-Eddy - Sheet - A114 - Eddy sprite jump_2
+  - first:
+      213: -6516193546520872055
+    second: 0-Eddy - Sheet - A114 - Eddy sprite jump_3
+  - first:
+      213: 8786440168960435211
+    second: 0-Eddy - Sheet - A114 - Eddy sprite jump_4
+  - first:
+      213: -3339548684896723921
+    second: 0-Eddy - Sheet - A114 - Eddy sprite jump_5
+  - first:
+      213: -2568031838460297517
+    second: 0-Eddy - Sheet - A114 - Eddy sprite jump_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -181,7 +202,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 590.6
+        width: 590.2857
         height: 1181
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -190,8 +211,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95f5e864e8e4c6c20800000000000000
-      internalID: 3201019808129638233
+      spriteID: cf4775d67f5ca8730800000000000000
+      internalID: 4002228885354149116
       vertices: []
       indices: 
       edges: []
@@ -202,7 +223,7 @@ TextureImporter:
         serializedVersion: 2
         x: 590
         y: 0
-        width: 590.6
+        width: 590.2857
         height: 1181
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -211,8 +232,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6436a34c4d014210800000000000000
-      internalID: 1315347187372536939
+      spriteID: f00054bdd8a617490800000000000000
+      internalID: -7750296326226247665
       vertices: []
       indices: 
       edges: []
@@ -223,7 +244,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1180
         y: 0
-        width: 590.6
+        width: 590.2857
         height: 1181
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -232,8 +253,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae51449bf99aff950800000000000000
-      internalID: 6485088491909944810
+      spriteID: ac2cc7371d8baeae0800000000000000
+      internalID: -1519198714558889270
       vertices: []
       indices: 
       edges: []
@@ -244,7 +265,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1770
         y: 0
-        width: 590.6
+        width: 590.2857
         height: 1181
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -253,8 +274,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f03a5f7740ad6c770800000000000000
-      internalID: 8630825448629445391
+      spriteID: 98b3ee36e74d195a0800000000000000
+      internalID: -6516193546520872055
       vertices: []
       indices: 
       edges: []
@@ -265,7 +286,7 @@ TextureImporter:
         serializedVersion: 2
         x: 2360
         y: 0
-        width: 590.6
+        width: 590.2857
         height: 1181
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -274,8 +295,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e00b3f21bd845bb00800000000000000
-      internalID: 843660610954833934
+      spriteID: b042c17f7c4bfe970800000000000000
+      internalID: 8786440168960435211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A114 - Eddy sprite jump_5
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 0
+        width: 590.2857
+        height: 1181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c9b9e2a2a87a1d0800000000000000
+      internalID: -3339548684896723921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A114 - Eddy sprite jump_6
+      rect:
+        serializedVersion: 2
+        x: 3540
+        y: 0
+        width: 590.2857
+        height: 1181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de3ea026a48c5cd0800000000000000
+      internalID: -2568031838460297517
       vertices: []
       indices: 
       edges: []

@@ -1,7 +1,25 @@
 fileFormatVersion: 2
-guid: 65860a726fa67484e9e8f9568b07e6fa
+guid: a16d4e693f0c7884b9f87b5103772a98
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3193521595710973643
+    second: 0-Eddy - Sheet - A114 - Eddy sprite dead_0
+  - first:
+      213: 2369591311626242943
+    second: 0-Eddy - Sheet - A114 - Eddy sprite dead_1
+  - first:
+      213: -8413538560904489876
+    second: 0-Eddy - Sheet - A114 - Eddy sprite dead_2
+  - first:
+      213: 4662048382868918015
+    second: 0-Eddy - Sheet - A114 - Eddy sprite dead_3
+  - first:
+      213: -2160605635333695951
+    second: 0-Eddy - Sheet - A114 - Eddy sprite dead_4
+  - first:
+      213: -6834855363719420813
+    second: 0-Eddy - Sheet - A114 - Eddy sprite dead_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -159,7 +177,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A114 - Eddy sprite dead_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 826.8333
+        height: 1181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539db1957055ea3d0800000000000000
+      internalID: -3193521595710973643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A114 - Eddy sprite dead_1
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 0
+        width: 826.8333
+        height: 1181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b85584eba72e020800000000000000
+      internalID: 2369591311626242943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A114 - Eddy sprite dead_2
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 0
+        width: 826.8333
+        height: 1181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c649c35714b1d3b80800000000000000
+      internalID: -8413538560904489876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A114 - Eddy sprite dead_3
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 0
+        width: 826.8333
+        height: 1181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe069abd4ce2b040800000000000000
+      internalID: 4662048382868918015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A114 - Eddy sprite dead_4
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 0
+        width: 826.8333
+        height: 1181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1365a3e3f9cf302e0800000000000000
+      internalID: -2160605635333695951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A114 - Eddy sprite dead_5
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 0
+        width: 826.8333
+        height: 1181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374a4526247b521a0800000000000000
+      internalID: -6834855363719420813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

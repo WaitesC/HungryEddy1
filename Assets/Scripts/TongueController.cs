@@ -50,29 +50,40 @@ public class TongueController : MonoBehaviour
         if (Time.time >= nextAttackTime)
         {
             //tongue normal
-            if (Input.GetButtonDown("Tongue"))
-            {
-                animator.SetTrigger("TongueNormal");
+            //if (Input.GetButtonDown("Tongue"))
+            //{
+            //    animator.SetTrigger("TongueNormal");
 
-                nextAttackTime = Time.time + 1f / tongueAttackRate;
+            //    nextAttackTime = Time.time + 1f / tongueAttackRate;
 
-                source.PlayOneShot(tongueSound, 0.3f);
+            //    source.PlayOneShot(tongueSound, 0.3f);
 
-            }
+            //}
 
-            //tongue up
-            if (Input.GetButtonDown("Tongue") && Input.GetAxisRaw("Vertical") > 0)
-            {
-                animator.SetTrigger("TongueUp");
+            ////tongue up
+            //if (Input.GetButtonDown("Tongue") && Input.GetAxisRaw("Vertical") > 0)
+            //{
+            //    animator.SetTrigger("TongueUp");
 
-                nextAttackTime = Time.time + 1f / tongueAttackRate;
+            //    nextAttackTime = Time.time + 1f / tongueAttackRate;
 
-                source.PlayOneShot(tongueSound, 0.3f);
+            //    source.PlayOneShot(tongueSound, 0.3f);
 
-            }
+            //}
 
+            ////tongue down
+            //if (Input.GetButtonDown("Tongue") && Input.GetAxisRaw("Vertical") < 0)
+            //{
+            //    animator.SetTrigger("TongueDown");
+
+            //    nextAttackTime = Time.time + 1f / tongueAttackRate;
+
+            //    source.PlayOneShot(tongueSound, 0.3f);
+
+            //}
+            
             //tongue down
-            if (Input.GetButtonDown("Tongue") && Input.GetAxisRaw("Vertical") < 0)
+            if (Input.GetButtonDown("Tongue"))
             {
                 animator.SetTrigger("TongueDown");
 
@@ -108,10 +119,13 @@ public class TongueController : MonoBehaviour
 
             caterpillar.GetComponent<CaterpillarUnit>().TakeDamage(100);
 
-            healthController.HealthPickup(caterpillarHealthPickup);
+            healthController.HealthPickup(caterpillar.GetComponent<CaterpillarUnit>().healthUp);
 
             FindObjectOfType<GameManager>().xPPoints += 100;
 
+            animator.SetTrigger("HitCaterpillar");
+
+            caterpillar.GetComponent<Animator>().SetTrigger("CaterpillarEaten");
         }
     }
     

@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     public float runSpeed = 40f;
     public float climbSpeed = 40f;
 
-    float horMove = 0f;
+    public float horMove = 0f;
     float verMove = 0f;
 
     public bool jump = false;

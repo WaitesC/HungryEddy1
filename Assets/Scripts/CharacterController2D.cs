@@ -1,13 +1,24 @@
-﻿using UnityEngine;
+﻿using System.Collections.Specialized;
+using UnityEngine;
 using UnityEngine.Events;
 
 public class CharacterController2D : MonoBehaviour
 {
+	public PhysicsMaterial2D playerPhysics;
+
+	public PlayerMovement playerMovement;
+
+	//public PhysicMaterial slopePhysics;
+
+	//public BoxCollider2D mycollider;
+
+
 	[SerializeField] private float m_JumpForce = 400f;                          // Amount of force added when the player jumps.
 	[Range(0, 1)] [SerializeField] private float m_CrouchSpeed = .36f;          // Amount of maxSpeed applied to crouching movement. 1 = 100%
 	[Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;  // How much to smooth out the movement
 	[SerializeField] private bool m_AirControl = false;                         // Whether or not a player can steer while jumping;
 	[SerializeField] private LayerMask m_WhatIsGround;                          // A mask determining what is ground to the character
+	[SerializeField] private LayerMask m_WhatIsSlope;                          // A mask determining what is ground to the character
 	[SerializeField] private Transform m_GroundCheck;                           // A position marking where to check if the player is grounded.
 	[SerializeField] private Transform m_CeilingCheck;                          // A position marking where to check for ceilings
 	[SerializeField] private Collider2D m_CrouchDisableCollider;                // A collider that will be disabled when crouching
@@ -37,6 +48,8 @@ public class CharacterController2D : MonoBehaviour
 	{
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
 
+		//mycollider.material = normalPhysics;
+
 		if (OnLandEvent == null)
 			OnLandEvent = new UnityEvent();
 
@@ -65,10 +78,28 @@ public class CharacterController2D : MonoBehaviour
 					OnLandEvent.Invoke();
 			}
 		}
+		Debug.Log(playerPhysics.friction);
+
+        if (Physics2D.OverlapCircle(m_GroundCheck.position, k_GroundedRadius, m_WhatIsSlope) && playerMovement.horMove == 0)
+        {
+			//playerPhysics.friction = 100;
+			m_Rigidbody2D.velocity = Vector3.zero;
+
+            //Debug.Log(playerPhysics.friction);
+        }
+        else
+        {
+            //playerPhysics.friction = 0;
+
+            //Debug.Log(playerPhysics.friction);
+        }
+
+
+        //mycollider.material = normalPhysics;
 
 
 
-	}
+    }
 
 	public void verticalMove(float move)
     {

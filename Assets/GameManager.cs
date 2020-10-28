@@ -51,7 +51,7 @@ public class GameManager : MonoBehaviour
         if(gameHasEnded == false)
         {
             Debug.Log("gameovber");
-            Invoke("GameOverScreen", 1f);
+            Invoke("GameOverScreen", 5f);
 
             animator.Play("Eddy_Dead");
 
@@ -101,6 +101,8 @@ public class GameManager : MonoBehaviour
 
     void GameOverScreen()
     {
+
+
         gameHasEnded = true;
 
         gameOverStuff.SetActive(true);

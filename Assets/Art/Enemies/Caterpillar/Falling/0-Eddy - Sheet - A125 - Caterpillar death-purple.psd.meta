@@ -1,7 +1,25 @@
 fileFormatVersion: 2
-guid: 65860a726fa67484e9e8f9568b07e6fa
+guid: 419db1bc4b3068b488205943c472d994
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8949164449093048820
+    second: 0-Eddy - Sheet - A125 - Caterpillar death-purple_0
+  - first:
+      213: 9132487680212216404
+    second: 0-Eddy - Sheet - A125 - Caterpillar death-purple_1
+  - first:
+      213: -2666576460078155756
+    second: 0-Eddy - Sheet - A125 - Caterpillar death-purple_2
+  - first:
+      213: -6938235733375422072
+    second: 0-Eddy - Sheet - A125 - Caterpillar death-purple_3
+  - first:
+      213: 5197669616560267771
+    second: 0-Eddy - Sheet - A125 - Caterpillar death-purple_4
+  - first:
+      213: 8545634835653508053
+    second: 0-Eddy - Sheet - A125 - Caterpillar death-purple_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -159,7 +177,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A125 - Caterpillar death-purple_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 590.5
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9deb8d6a1d13c70800000000000000
+      internalID: 8949164449093048820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A125 - Caterpillar death-purple_1
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 0
+        width: 590.5
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a2eaeb82d1dbe70800000000000000
+      internalID: 9132487680212216404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A125 - Caterpillar death-purple_2
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 0
+        width: 590.5
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4187f9276da6efad0800000000000000
+      internalID: -2666576460078155756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A125 - Caterpillar death-purple_3
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 0
+        width: 590.5
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8817c306c5f66bf90800000000000000
+      internalID: -6938235733375422072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A125 - Caterpillar death-purple_4
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 0
+        width: 590.5
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf16ae25af4d12840800000000000000
+      internalID: 5197669616560267771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A125 - Caterpillar death-purple_5
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 0
+        width: 590.5
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbb4573b91389670800000000000000
+      internalID: 8545634835653508053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

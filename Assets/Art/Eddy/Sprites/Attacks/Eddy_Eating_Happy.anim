@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Eddy_Falling
+  m_Name: Eddy_Eating_Happy
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,11 +20,9 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -3339548684896723921, guid: 7ac6cfd7c9228c84d9fe450eaaffe92f, type: 3}
-    - time: 0.16666667
-      value: {fileID: -2568031838460297517, guid: 7ac6cfd7c9228c84d9fe450eaaffe92f, type: 3}
+      value: {fileID: -6131192659256436003, guid: 40a641cb27843d64481d881a12bbeac4, type: 3}
     - time: 0.33333334
-      value: {fileID: -3339548684896723921, guid: 7ac6cfd7c9228c84d9fe450eaaffe92f, type: 3}
+      value: {fileID: -6131192659256436003, guid: 40a641cb27843d64481d881a12bbeac4, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,9 +42,8 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -3339548684896723921, guid: 7ac6cfd7c9228c84d9fe450eaaffe92f, type: 3}
-    - {fileID: -2568031838460297517, guid: 7ac6cfd7c9228c84d9fe450eaaffe92f, type: 3}
-    - {fileID: -3339548684896723921, guid: 7ac6cfd7c9228c84d9fe450eaaffe92f, type: 3}
+    - {fileID: -6131192659256436003, guid: 40a641cb27843d64481d881a12bbeac4, type: 3}
+    - {fileID: -6131192659256436003, guid: 40a641cb27843d64481d881a12bbeac4, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
