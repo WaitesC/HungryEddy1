@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
@@ -9,6 +10,7 @@ public class FollowPlayer : MonoBehaviour
     public Vector3 offset;
 
     public float eastBoundary, southBoundary, westBoundary, northBoundary;
+    
 
     // Start is called before the first frame update
     void Start()
