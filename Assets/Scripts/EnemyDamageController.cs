@@ -1,18 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class EnemyDamageController : MonoBehaviour
 {
-    public HealthController healthController;
+    HealthController healthController;
 
-    public Rigidbody2D playerRigidbody;
+    Rigidbody2D playerRigidbody;
 
-    public Transform playerPos;
+    Transform playerPos;
 
-    public GameObject player;
+    GameObject player;
 
-    public AudioSource source;
+    AudioSource source;
     //sounds
     public AudioClip playerHurtSound;
 
@@ -30,6 +31,16 @@ public class EnemyDamageController : MonoBehaviour
     void Start()
     {
         //var playerMaterialRenderer = player.GetComponent<Renderer>();
+
+        source = GetComponent<AudioSource>();
+
+        playerPos = GameObject.Find("Player").GetComponent<Transform>();
+
+        playerRigidbody = GameObject.Find("Player").GetComponent<Rigidbody2D>();
+
+        healthController = GameObject.Find("Player").GetComponent<HealthController>();
+
+        player = GameObject.Find("Player");
     }
 
     // Update is called once per frame
@@ -46,7 +57,7 @@ public class EnemyDamageController : MonoBehaviour
         {
             healthController.currentHealth -= damage;
 
-            source.PlayOneShot(playerHurtSound, 0.3f);
+            source.PlayOneShot(playerHurtSound, 0.1f);
 
 
             playerRigidbody.AddForce(dir * thrust, ForceMode2D.Impulse);

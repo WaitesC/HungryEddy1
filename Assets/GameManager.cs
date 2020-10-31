@@ -10,24 +10,24 @@ public class GameManager : MonoBehaviour
 {
     bool gameHasEnded = false;
 
-    public Animator animator;
+    Animator animator;
 
-    public Text coinText;
-    public Text xPText;
+     Text coinText;
+     Text xPText;
 
     
 
-    public GameObject tutorialStuff;
+     GameObject tutorialStuff;
 
-    public GameObject gameUIStuff;
+     GameObject gameUIStuff;
 
-    public GameObject gameOverStuff;
+     GameObject gameOverStuff;
 
-    public GameObject endLevelStuff;
+     GameObject endLevelStuff;
 
-    public PlayerMovement playerMovement;
+    PlayerMovement playerMovement;
 
-    public Rigidbody2D rb;
+    Rigidbody2D rb;
 
 
     public int currentCoins;
@@ -43,6 +43,22 @@ public class GameManager : MonoBehaviour
     {
         gameStart = true;
 
+        rb = GameObject.Find("Player").GetComponent<Rigidbody2D>();
+
+        playerMovement = GameObject.Find("Player").GetComponent<PlayerMovement>();
+
+        animator = GameObject.Find("Player").GetComponent<Animator>();
+
+        tutorialStuff = GameObject.Find("Tutorial Stuff");
+        gameUIStuff = GameObject.Find("Game UI stuff");
+        gameOverStuff = GameObject.Find("Game Over stuff");
+        endLevelStuff = GameObject.Find("End Level stuff");
+
+        coinText = GameObject.Find("Coin Counter Text").GetComponent<Text>();
+        xPText = GameObject.Find("XP text").GetComponent<Text>();
+
+
+
     }
 
 
@@ -51,7 +67,7 @@ public class GameManager : MonoBehaviour
         if(gameHasEnded == false)
         {
             Debug.Log("gameovber");
-            Invoke("GameOverScreen", 5f);
+            Invoke("GameOverScreen", 2.3f);
 
             animator.Play("Eddy_Dead");
 

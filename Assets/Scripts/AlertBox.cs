@@ -23,6 +23,8 @@ public class AlertBox : MonoBehaviour
 
     public GameObject otherBox;
 
+    public string alertAnimationName;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,9 +34,9 @@ public class AlertBox : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (escapeRight == true) 
+        if (escapeRight == true)
             Right();
-        if(escapeLeft == true)
+        if (escapeLeft == true)
             Left();
     }
 
@@ -42,7 +44,7 @@ public class AlertBox : MonoBehaviour
     {
         if (col.gameObject.name == "Player")
         {
-            animator.Play("Caterpillar_Purple_Alert");
+            animator.Play(alertAnimationName);
 
             escapeTime = true;
 
@@ -51,7 +53,7 @@ public class AlertBox : MonoBehaviour
 
         }
 
-        
+
 
 
     }
@@ -67,7 +69,7 @@ public class AlertBox : MonoBehaviour
 
         }
     }
-    
+
     void Left()
     {
         if (escapeTime)

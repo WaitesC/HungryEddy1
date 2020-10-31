@@ -18,6 +18,9 @@ public class UIController : MonoBehaviour
     void Start()
     {
         GetComponent<Image>().sprite = healthBar[0];
+
+        healthController = GameObject.Find("Player").GetComponent<HealthController>();
+
     }
 
     // Update is called once per frame

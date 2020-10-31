@@ -36,16 +36,16 @@ public class EnemySoundController : MonoBehaviour
     {
 
         //source.PlayOneShot(enemySound, 0.3f);
-
-        source.Play();
+        if (other.tag == "Player")
+            source.Play();
 
 
     }
     
     void OnTriggerExit2D(Collider2D other)
     {
-
-        source.Stop();
+        if (other.tag == "Player")
+            source.Stop();
 
 
     }

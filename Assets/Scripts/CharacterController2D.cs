@@ -21,7 +21,7 @@ public class CharacterController2D : MonoBehaviour
 	[SerializeField] private LayerMask m_WhatIsSlope;                          // A mask determining what is ground to the character
 	[SerializeField] private Transform m_GroundCheck;                           // A position marking where to check if the player is grounded.
 	[SerializeField] private Transform m_CeilingCheck;                          // A position marking where to check for ceilings
-	[SerializeField] private Collider2D m_CrouchDisableCollider;                // A collider that will be disabled when crouching
+	//[SerializeField] private Collider2D m_CrouchDisableCollider;                // A collider that will be disabled when crouching
 
 	const float k_GroundedRadius = 2.2f; // Radius of the overlap circle to determine if grounded
 	public bool m_Grounded;            // Whether or not the player is grounded.
@@ -78,7 +78,7 @@ public class CharacterController2D : MonoBehaviour
 					OnLandEvent.Invoke();
 			}
 		}
-		Debug.Log(playerPhysics.friction);
+		//Debug.Log(playerPhysics.friction);
 
         if (Physics2D.OverlapCircle(m_GroundCheck.position, k_GroundedRadius, m_WhatIsSlope) && playerMovement.horMove == 0)
         {
@@ -150,17 +150,17 @@ public class CharacterController2D : MonoBehaviour
 				// Reduce the speed by the crouchSpeed multiplier
 				move *= m_CrouchSpeed;
 
-				// Disable one of the colliders when crouching
-				if (m_CrouchDisableCollider != null)
-					m_CrouchDisableCollider.enabled = false;
-			}
-			else
+                // Disable one of the colliders when crouching
+                //if (m_CrouchDisableCollider != null)
+                    //m_CrouchDisableCollider.enabled = false;
+            }
+            else
 			{
-				// Enable the collider when not crouching
-				if (m_CrouchDisableCollider != null)
-					m_CrouchDisableCollider.enabled = true;
+                    // Enable the collider when not crouching
+                    //if (m_CrouchDisableCollider != null)
+                        //m_CrouchDisableCollider.enabled = true;
 
-				if (m_wasCrouching)
+                    if (m_wasCrouching)
 				{
 					m_wasCrouching = false;
 					OnCrouchEvent.Invoke(false);
