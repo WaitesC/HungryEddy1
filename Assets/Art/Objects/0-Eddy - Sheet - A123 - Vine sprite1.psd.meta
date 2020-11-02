@@ -11,6 +11,21 @@ TextureImporter:
   - first:
       213: 4252640186643177775
     second: 0-Eddy - Sheet - A123 - Vine sprite1_2
+  - first:
+      213: -4747075999189337415
+    second: 0-Eddy - Sheet - A123 - Vine sprite1_0
+  - first:
+      213: 5664709070392000893
+    second: 0-Eddy - Sheet - A123 - Vine sprite1_1
+  - first:
+      213: -204206693114637827
+    second: 0-Eddy - Sheet - A123 - Vine sprite1_2
+  - first:
+      213: 4968334486901850766
+    second: 0-Eddy - Sheet - A123 - Vine sprite1_3
+  - first:
+      213: -3073893567601422527
+    second: 0-Eddy - Sheet - A123 - Vine sprite1_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -174,9 +189,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 590.6666
-        width: 2743
-        height: 295.33334
+        y: 1181.6
+        width: 2744
+        height: 295.4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,8 +199,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28502779064e4c7c0800000000000000
-      internalID: -4051862661217778302
+      spriteID: 9ba7982a78ffe1eb0800000000000000
+      internalID: -4747075999189337415
       vertices: []
       indices: 
       edges: []
@@ -195,9 +210,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 295.66666
-        width: 2743
-        height: 295.33334
+        y: 886.6
+        width: 2744
+        height: 295.4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,8 +220,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13827218d7c146700800000000000000
-      internalID: 532581981299877937
+      spriteID: d7106a8f2e61d9e40800000000000000
+      internalID: 5664709070392000893
       vertices: []
       indices: 
       edges: []
@@ -216,9 +231,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0.6666565
-        width: 2743
-        height: 295.33334
+        y: 591.6
+        width: 2744
+        height: 295.4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,8 +241,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f21ea62e7b9640b30800000000000000
-      internalID: 4252640186643177775
+      spriteID: df1152438138a2df0800000000000000
+      internalID: -204206693114637827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A123 - Vine sprite1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296.6
+        width: 2744
+        height: 295.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e828b1974e113f440800000000000000
+      internalID: 4968334486901850766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0-Eddy - Sheet - A123 - Vine sprite1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.6000061
+        width: 2744
+        height: 295.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f42c126165755d0800000000000000
+      internalID: -3073893567601422527
       vertices: []
       indices: 
       edges: []

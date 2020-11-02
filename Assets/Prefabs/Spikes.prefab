@@ -370,7 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2e3d093b45c44d48b378d362ad456fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHurtSound: {fileID: 8300000, guid: 01e9176fe50e4d4488fe076d021f44e8, type: 3}
+  playerHurtSound: {fileID: 8300000, guid: 4f5cdabbcc4e3e84488f417919861a60, type: 3}
   damage: 100
   thrust: 5
 --- !u!61 &3446388291384579836
@@ -471,7 +471,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.5
       inSlope: 0
       outSlope: 0
       tangentMode: 0

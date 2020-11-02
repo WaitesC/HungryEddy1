@@ -69,7 +69,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -29744283
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: -1
   m_Sprite: {fileID: 7378164326004628170, guid: ba5719b7cd54b9448b75e5d7169763f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -156,7 +156,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -29744283
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 1
   m_Sprite: {fileID: 5798759653245885060, guid: ba5719b7cd54b9448b75e5d7169763f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -493,12 +493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2e3d093b45c44d48b378d362ad456fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthController: {fileID: 0}
-  playerRigidbody: {fileID: 0}
-  playerPos: {fileID: 0}
-  player: {fileID: 0}
-  source: {fileID: 0}
-  playerHurtSound: {fileID: 8300000, guid: 01e9176fe50e4d4488fe076d021f44e8, type: 3}
+  playerHurtSound: {fileID: 8300000, guid: 4f5cdabbcc4e3e84488f417919861a60, type: 3}
   damage: 5
   thrust: 5
 --- !u!1 &3618472698239051533
