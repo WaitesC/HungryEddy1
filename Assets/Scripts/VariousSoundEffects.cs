@@ -24,7 +24,7 @@ public class VariousSoundEffects : MonoBehaviour
     {
         if (collider.gameObject.tag == "SmallCoin")
         {
-            source.PlayOneShot(coinSound, 0.3f);
+            //source.PlayOneShot(coinSound, 0.3f);
 
 
 

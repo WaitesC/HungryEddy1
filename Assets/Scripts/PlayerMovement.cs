@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Security.Cryptography;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -23,6 +22,8 @@ public class PlayerMovement : MonoBehaviour
     public bool jump = false;
 
     public bool canMove;
+
+    bool crouching = false;
 
     public bool climbing;
 
@@ -47,6 +48,12 @@ public class PlayerMovement : MonoBehaviour
         if(canMove)
             horMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
+        verMove = Input.GetAxisRaw("Vertical");
+
+        Debug.Log(verMove);
+
+
+
         animator.SetFloat("Speed", Mathf.Abs(horMove));
 
         if (Input.GetButtonDown("Jump") && controller.m_Grounded == true)
@@ -60,55 +67,81 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
-        if (climbing)
+        //if (climbing)
+        //{
+        //    verMove = Input.GetAxisRaw("Vertical") * climbSpeed;
+        //    canMove = false;
+        //    //controller.verticalMove(verMove * Time.fixedDeltaTime);
+
+        //    animator.SetBool("Grounded", true);
+
+
+        //    //Vector2 movement = new Vector2(0, verMove);
+
+        //    //playerRigidBody.AddForce(movement * 1);
+
+
+        //    //Vector2 movement = new Vector2(1, climbSpeed);
+        //    //transform.Translate(movement * Time.deltaTime);
+
+        //    if (Input.GetButtonDown("Jump"))
+        //    {
+        //        source.PlayOneShot(jumpSound, 0.3f);
+
+
+
+        //        ////jump sound effect
+
+
+        //        //transform.position = tonguePosition.position;
+
+        //        playerRigidBody.gravityScale = 10f;
+
+
+        //        jump = true;
+
+        //        animator.SetTrigger("Jump");
+
+        //        JumpFunction();
+
+
+        //        climbing = false;
+
+
+        //        canMove = true;
+
+
+        //        animator.SetBool("OnWall", false);
+
+
+
+        //    }
+        //}
+
+        if (verMove == -1f)
         {
-            verMove = Input.GetAxisRaw("Vertical") * climbSpeed;
+            crouching = true;
             canMove = false;
-            //controller.verticalMove(verMove * Time.fixedDeltaTime);
+        }
 
-            animator.SetBool("Grounded", true);
-
-
-            //Vector2 movement = new Vector2(0, verMove);
-
-            //playerRigidBody.AddForce(movement * 1);
+        if (verMove >= 0)
+        {
+            crouching = false;
+            canMove = true;
 
 
-            //Vector2 movement = new Vector2(1, climbSpeed);
-            //transform.Translate(movement * Time.deltaTime);
+        }
 
-            if (Input.GetButtonDown("Jump"))
-            {
-                source.PlayOneShot(jumpSound, 0.3f);
+        if (crouching == true)
+        {
+            animator.SetBool("Crouching", true);
 
+        }
+        
+        if(crouching == false)
+        {
+            animator.SetBool("Crouching", false);
 
-
-                ////jump sound effect
-
-
-                //transform.position = tonguePosition.position;
-
-                playerRigidBody.gravityScale = 10f;
-
-
-                jump = true;
-
-                animator.SetTrigger("Jump");
-
-                JumpFunction();
-
-
-                climbing = false;
-
-
-                canMove = true;
-
-
-                animator.SetBool("OnWall", false);
-
-
-
-            }
         }
 
         Audio();
@@ -126,7 +159,6 @@ public class PlayerMovement : MonoBehaviour
     {
         controller.Move(horMove * Time.fixedDeltaTime, false, jump);
         jump = false;
-
     }
 
     void Audio()

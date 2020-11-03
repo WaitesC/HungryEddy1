@@ -17,7 +17,7 @@ public class AlertBox : MonoBehaviour
     public bool escapeRight;
     public bool escapeLeft;
 
-    public float fleeSpeed;
+    int fleeSpeed;
 
     bool escapeTime;
 
@@ -29,6 +29,8 @@ public class AlertBox : MonoBehaviour
     void Start()
     {
         escapeTime = false;
+
+        fleeSpeed = transform.parent.gameObject.GetComponent<CaterpillarUnit>().speed;
     }
 
     // Update is called once per frame

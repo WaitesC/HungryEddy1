@@ -12,6 +12,8 @@ public class HealthController : MonoBehaviour
     public PlayerMovement playerMovement;
     public Rigidbody2D rb;
 
+    public HealthBar healthBar;
+
 
 
     // Start is called before the first frame update
@@ -20,12 +22,15 @@ public class HealthController : MonoBehaviour
         currentHealth = maxHealth;
         rb = GetComponent<Rigidbody2D>();
 
+        healthBar.SetMaxHealth(maxHealth);
     }
 
     // Update is called once per frame
     void Update()
     {
         currentHealth -= dot * Time.deltaTime;
+
+        healthBar.SetHealth(currentHealth);
 
         if(currentHealth<0)
         {

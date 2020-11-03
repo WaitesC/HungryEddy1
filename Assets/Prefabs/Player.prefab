@@ -159,7 +159,6 @@ MonoBehaviour:
     m_Bits: 16384
   m_GroundCheck: {fileID: 4310397985232560884}
   m_CeilingCheck: {fileID: 4310397984089927073}
-  m_CrouchDisableCollider: {fileID: 0}
   m_Grounded: 0
   OnLandEvent:
     m_PersistentCalls:
@@ -283,7 +282,8 @@ MonoBehaviour:
   currentHealth: 0
   dot: 0
   playerMovement: {fileID: 4310397984025005303}
-  rb: {fileID: 0}
+  rb: {fileID: 4310397984025005300}
+  healthBar: {fileID: 0}
 --- !u!114 &4310397984025005304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -551,6 +551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dustCloud: {fileID: 0}
+  landingDust: {fileID: 0}
 --- !u!1 &4310397984116873487
 GameObject:
   m_ObjectHideFlags: 0
@@ -5335,8 +5336,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -214416897
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
@@ -10315,9 +10316,9 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingLayerID: -214416897
+  m_SortingLayer: 3
+  m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0

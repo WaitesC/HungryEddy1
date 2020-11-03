@@ -15,7 +15,8 @@ public class GameManager : MonoBehaviour
      Text coinText;
      Text xPText;
 
-    
+    public AudioClip deathSound;
+    public AudioSource source;
 
      GameObject tutorialStuff;
 
@@ -68,7 +69,7 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("gameovber");
             Invoke("GameOverScreen", 2.3f);
-
+            source.PlayOneShot(deathSound, 0.2f);
             animator.Play("Eddy_Dead");
 
         }

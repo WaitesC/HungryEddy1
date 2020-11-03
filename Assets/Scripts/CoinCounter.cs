@@ -1,38 +1,66 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CoinCounter : MonoBehaviour
 {
+    AudioSource source;
     
+    public bool isBigCoin;
 
-    // Start is called before the first frame update
+    public int smallCoinValue;
+    public int bigCoinValue;
+
+    public AudioClip smallCoinSound;
+    public AudioClip bigCoinSound;
+
+    SpriteRenderer spriteRenderer;
+    BoxCollider2D boxCollider2D;
+
     void Start()
     {
-        
-    }
+        source = gameObject.GetComponent<AudioSource>();
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+
+        boxCollider2D = gameObject.GetComponent<BoxCollider2D>();
     }
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.gameObject.tag == "Player")
+        if(isBigCoin == false)
         {
+            //if player picks up small coin
+            if (collider.gameObject.tag == "Player")
+            {
+                FindObjectOfType<GameManager>().currentCoins += smallCoinValue;
 
+                source.PlayOneShot(smallCoinSound, 0.3f);
 
-            FindObjectOfType<GameManager>().currentCoins += 1;
-
-
-            Destroy(gameObject);
-
-
-
-
-            //or gameObject.SetActive(false);
+                //Destroy(gameObject);
+                OnPickup();
+            }
         }
+        
+        if(isBigCoin == true)
+        {
+            if (collider.gameObject.tag == "Player")
+            {
+                FindObjectOfType<GameManager>().currentCoins += bigCoinValue;
+                source.PlayOneShot(bigCoinSound, 0.3f);
+
+                //Destroy(gameObject);
+                OnPickup();
+            }
+        }
+        
+    }
+
+    void OnPickup()
+    {
+        spriteRenderer.enabled = false;
+        boxCollider2D.enabled = false;
+
     }
 }

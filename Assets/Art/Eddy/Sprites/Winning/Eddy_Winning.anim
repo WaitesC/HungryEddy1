@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Caterpillar_Rainbow_Eating
+  m_Name: Eddy_Winning
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,19 +20,19 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -7912457979415918177, guid: 393a49973bf1edf46bd6d242d14b0617, type: 3}
-    - time: 0.23333333
-      value: {fileID: -7885643016317562959, guid: 393a49973bf1edf46bd6d242d14b0617, type: 3}
-    - time: 0.48333332
-      value: {fileID: -6599348216522980297, guid: 393a49973bf1edf46bd6d242d14b0617, type: 3}
-    - time: 0.71666664
-      value: {fileID: -4939877129598889596, guid: 393a49973bf1edf46bd6d242d14b0617, type: 3}
-    - time: 1.0166667
-      value: {fileID: -6599348216522980297, guid: 393a49973bf1edf46bd6d242d14b0617, type: 3}
-    - time: 1.2666667
-      value: {fileID: -7885643016317562959, guid: 393a49973bf1edf46bd6d242d14b0617, type: 3}
-    - time: 1.5
-      value: {fileID: -7912457979415918177, guid: 393a49973bf1edf46bd6d242d14b0617, type: 3}
+      value: {fileID: 3410303616608897605, guid: 561722d358b6b3b4ba6e653c574b6907, type: 3}
+    - time: 0.16666667
+      value: {fileID: 8698346088509950187, guid: 561722d358b6b3b4ba6e653c574b6907, type: 3}
+    - time: 0.33333334
+      value: {fileID: 2190205560872165997, guid: 561722d358b6b3b4ba6e653c574b6907, type: 3}
+    - time: 0.5
+      value: {fileID: 8141973744256650615, guid: 561722d358b6b3b4ba6e653c574b6907, type: 3}
+    - time: 0.6666667
+      value: {fileID: 2190205560872165997, guid: 561722d358b6b3b4ba6e653c574b6907, type: 3}
+    - time: 0.8333333
+      value: {fileID: 8698346088509950187, guid: 561722d358b6b3b4ba6e653c574b6907, type: 3}
+    - time: 1
+      value: {fileID: 3410303616608897605, guid: 561722d358b6b3b4ba6e653c574b6907, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -52,19 +52,19 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -7912457979415918177, guid: 393a49973bf1edf46bd6d242d14b0617, type: 3}
-    - {fileID: -7885643016317562959, guid: 393a49973bf1edf46bd6d242d14b0617, type: 3}
-    - {fileID: -6599348216522980297, guid: 393a49973bf1edf46bd6d242d14b0617, type: 3}
-    - {fileID: -4939877129598889596, guid: 393a49973bf1edf46bd6d242d14b0617, type: 3}
-    - {fileID: -6599348216522980297, guid: 393a49973bf1edf46bd6d242d14b0617, type: 3}
-    - {fileID: -7885643016317562959, guid: 393a49973bf1edf46bd6d242d14b0617, type: 3}
-    - {fileID: -7912457979415918177, guid: 393a49973bf1edf46bd6d242d14b0617, type: 3}
+    - {fileID: 3410303616608897605, guid: 561722d358b6b3b4ba6e653c574b6907, type: 3}
+    - {fileID: 8698346088509950187, guid: 561722d358b6b3b4ba6e653c574b6907, type: 3}
+    - {fileID: 2190205560872165997, guid: 561722d358b6b3b4ba6e653c574b6907, type: 3}
+    - {fileID: 8141973744256650615, guid: 561722d358b6b3b4ba6e653c574b6907, type: 3}
+    - {fileID: 2190205560872165997, guid: 561722d358b6b3b4ba6e653c574b6907, type: 3}
+    - {fileID: 8698346088509950187, guid: 561722d358b6b3b4ba6e653c574b6907, type: 3}
+    - {fileID: 3410303616608897605, guid: 561722d358b6b3b4ba6e653c574b6907, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.5166667
+    m_StopTime: 1.0166667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

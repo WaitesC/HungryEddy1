@@ -7,6 +7,7 @@ public class CaterpillarUnit : MonoBehaviour
     public int maxHealth = 100;
     public int healthUp = 10;
     public int xP = 100;
+    public int speed = 20;
 
     int currentHealth;
     Animator animator;
@@ -66,7 +67,7 @@ public class CaterpillarUnit : MonoBehaviour
     
     IEnumerator CaterpillarDie()
     {
-        yield return new WaitForSeconds(2.5f);
+        yield return new WaitForSeconds(1f);
 
         Destroy(gameObject);
 
