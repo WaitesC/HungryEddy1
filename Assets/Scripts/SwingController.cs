@@ -40,8 +40,9 @@ public class SwingController : MonoBehaviour
 
         if (Input.GetButtonDown("Swing"))
         {
-            //rb.velocity = Vector3.zero;
-            //playerMovement.canMove = false;
+            rb.velocity = Vector3.zero;
+
+            playerMovement.canMove = false;
 
 
             animator.SetTrigger("SwingAttack");

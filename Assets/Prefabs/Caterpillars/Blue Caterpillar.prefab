@@ -76,7 +76,7 @@ MonoBehaviour:
   escapeRight: 0
   escapeLeft: 1
   otherBox: {fileID: 3770779002741547965}
-  alertAnimationName: Caterpillar_Purple_Alert
+  alertAnimationName: Caterpillar_Blue_Alert
 --- !u!1 &3770779002741547965
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,7 +153,7 @@ MonoBehaviour:
   escapeRight: 1
   escapeLeft: 0
   otherBox: {fileID: 3770779001904575964}
-  alertAnimationName: Caterpillar_Purple_Alert
+  alertAnimationName: Caterpillar_Blue_Alert
 --- !u!1 &3770779002886318061
 GameObject:
   m_ObjectHideFlags: 0

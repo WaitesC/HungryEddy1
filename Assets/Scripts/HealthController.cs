@@ -12,13 +12,15 @@ public class HealthController : MonoBehaviour
     public PlayerMovement playerMovement;
     public Rigidbody2D rb;
 
-    public HealthBar healthBar;
+    HealthBar healthBar;
 
 
 
     // Start is called before the first frame update
     void Start()
     {
+        healthBar = GameObject.Find("Health Bar").GetComponent<HealthBar>();
+
         currentHealth = maxHealth;
         rb = GetComponent<Rigidbody2D>();
 

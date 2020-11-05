@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
 
         verMove = Input.GetAxisRaw("Vertical");
 
-        Debug.Log(verMove);
+        //Debug.Log(verMove);
 
 
 
