@@ -16317,7 +16317,8 @@ MonoBehaviour:
   isBigCoin: 0
   smallCoinValue: 0
   bigCoinValue: 0
-  coinSound: {fileID: 0}
+  smallCoinSound: {fileID: 0}
+  bigCoinSound: {fileID: 0}
 --- !u!61 &514831601
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19941,7 +19942,8 @@ MonoBehaviour:
   isBigCoin: 0
   smallCoinValue: 0
   bigCoinValue: 0
-  coinSound: {fileID: 0}
+  smallCoinSound: {fileID: 0}
+  bigCoinSound: {fileID: 0}
 --- !u!61 &660878726
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20053,7 +20055,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &667547160
 Transform:
   m_ObjectHideFlags: 0
@@ -23374,7 +23376,8 @@ MonoBehaviour:
   isBigCoin: 0
   smallCoinValue: 0
   bigCoinValue: 0
-  coinSound: {fileID: 0}
+  smallCoinSound: {fileID: 0}
+  bigCoinSound: {fileID: 0}
 --- !u!61 &902743084
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41830,7 +41833,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4310397984025005299, guid: 48d75685658832846a371bf3e3045b33, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.8
+      value: -24
       objectReference: {fileID: 0}
     - target: {fileID: 4310397984025005299, guid: 48d75685658832846a371bf3e3045b33, type: 3}
       propertyPath: m_LocalPosition.y
@@ -42236,7 +42239,8 @@ MonoBehaviour:
   isBigCoin: 0
   smallCoinValue: 0
   bigCoinValue: 0
-  coinSound: {fileID: 0}
+  smallCoinSound: {fileID: 0}
+  bigCoinSound: {fileID: 0}
 --- !u!61 &1585041946
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43128,7 +43132,8 @@ MonoBehaviour:
   isBigCoin: 0
   smallCoinValue: 0
   bigCoinValue: 0
-  coinSound: {fileID: 0}
+  smallCoinSound: {fileID: 0}
+  bigCoinSound: {fileID: 0}
 --- !u!61 &1624709759
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43371,7 +43376,8 @@ MonoBehaviour:
   isBigCoin: 0
   smallCoinValue: 0
   bigCoinValue: 0
-  coinSound: {fileID: 0}
+  smallCoinSound: {fileID: 0}
+  bigCoinSound: {fileID: 0}
 --- !u!61 &1629959232
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47028,7 +47034,8 @@ MonoBehaviour:
   isBigCoin: 0
   smallCoinValue: 0
   bigCoinValue: 0
-  coinSound: {fileID: 0}
+  smallCoinSound: {fileID: 0}
+  bigCoinSound: {fileID: 0}
 --- !u!61 &1807235655
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47439,7 +47446,8 @@ MonoBehaviour:
   isBigCoin: 0
   smallCoinValue: 0
   bigCoinValue: 0
-  coinSound: {fileID: 0}
+  smallCoinSound: {fileID: 0}
+  bigCoinSound: {fileID: 0}
 --- !u!61 &1819239828
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47720,7 +47728,8 @@ MonoBehaviour:
   isBigCoin: 0
   smallCoinValue: 0
   bigCoinValue: 0
-  coinSound: {fileID: 0}
+  smallCoinSound: {fileID: 0}
+  bigCoinSound: {fileID: 0}
 --- !u!61 &1853225058
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47963,7 +47972,8 @@ MonoBehaviour:
   isBigCoin: 0
   smallCoinValue: 0
   bigCoinValue: 0
-  coinSound: {fileID: 0}
+  smallCoinSound: {fileID: 0}
+  bigCoinSound: {fileID: 0}
 --- !u!61 &1854441404
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -53132,7 +53142,8 @@ MonoBehaviour:
   isBigCoin: 0
   smallCoinValue: 0
   bigCoinValue: 0
-  coinSound: {fileID: 0}
+  smallCoinSound: {fileID: 0}
+  bigCoinSound: {fileID: 0}
 --- !u!61 &1869378871
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -54361,7 +54372,8 @@ MonoBehaviour:
   isBigCoin: 0
   smallCoinValue: 0
   bigCoinValue: 0
-  coinSound: {fileID: 0}
+  smallCoinSound: {fileID: 0}
+  bigCoinSound: {fileID: 0}
 --- !u!61 &1954167809
 BoxCollider2D:
   m_ObjectHideFlags: 0

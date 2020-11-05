@@ -7,14 +7,14 @@ public class PlayerAttach : MonoBehaviour
 {
     public GameObject Player;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject == Player)
         {
             Player.transform.parent = transform;
         }
     }
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject == Player)
         {
