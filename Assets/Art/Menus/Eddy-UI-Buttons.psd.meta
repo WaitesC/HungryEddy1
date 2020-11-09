@@ -14,6 +14,24 @@ TextureImporter:
   - first:
       213: 8366550199175456924
     second: Eddy-UI-Buttons_3
+  - first:
+      213: -6308099792646886014
+    second: Eddy-UI-Buttons_0
+  - first:
+      213: 6307299324829876843
+    second: Eddy-UI-Buttons_1
+  - first:
+      213: -3141211394251691907
+    second: Eddy-UI-Buttons_2
+  - first:
+      213: -1168917975136827305
+    second: Eddy-UI-Buttons_3
+  - first:
+      213: 6174948034984829812
+    second: Eddy-UI-Buttons_4
+  - first:
+      213: 5546454335446618788
+    second: Eddy-UI-Buttons_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -177,9 +195,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 591.75
-        width: 2363
-        height: 197.25
+        y: 945
+        width: 2362
+        height: 189
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +205,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb4ba454fc7e98c60800000000000000
-      internalID: 7821037105312347327
+      spriteID: 28d219b09a02578a0800000000000000
+      internalID: -6308099792646886014
       vertices: []
       indices: 
       edges: []
@@ -198,9 +216,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 394.75
-        width: 2363
-        height: 197.25
+        y: 756
+        width: 2362
+        height: 189
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,8 +226,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7fc1172a80178eb0800000000000000
-      internalID: -4717783899100295297
+      spriteID: b62cb848157088750800000000000000
+      internalID: 6307299324829876843
       vertices: []
       indices: 
       edges: []
@@ -219,9 +237,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 197.75
-        width: 2363
-        height: 197.25
+        y: 567
+        width: 2362
+        height: 189
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,8 +247,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76b37e4b121900740800000000000000
-      internalID: 5116248750647884647
+      spriteID: d78e73931ec2864d0800000000000000
+      internalID: -3141211394251691907
       vertices: []
       indices: 
       edges: []
@@ -240,9 +258,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0.75
-        width: 2363
-        height: 197.25
+        y: 378
+        width: 2362
+        height: 189
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,8 +268,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c98a3590415fb1470800000000000000
-      internalID: 8366550199175456924
+      spriteID: 75886687b4b27cfe0800000000000000
+      internalID: -1168917975136827305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddy-UI-Buttons_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 2362
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47364c38582d1b550800000000000000
+      internalID: 6174948034984829812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddy-UI-Buttons_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2362
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2983be4d6f8fc40800000000000000
+      internalID: 5546454335446618788
       vertices: []
       indices: 
       edges: []
