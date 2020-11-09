@@ -62038,30 +62038,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
-    - target: {fileID: 6593679373228868163, guid: ba602e818f20b924db1b2ff3448d9764, type: 3}
-      propertyPath: coinText
-      value: 
-      objectReference: {fileID: 581192047}
-    - target: {fileID: 6593679373228868163, guid: ba602e818f20b924db1b2ff3448d9764, type: 3}
-      propertyPath: xPText
-      value: 
-      objectReference: {fileID: 1003659131}
-    - target: {fileID: 6593679373228868163, guid: ba602e818f20b924db1b2ff3448d9764, type: 3}
-      propertyPath: tutorialStuff
-      value: 
-      objectReference: {fileID: 1621859861}
-    - target: {fileID: 6593679373228868163, guid: ba602e818f20b924db1b2ff3448d9764, type: 3}
-      propertyPath: gameUIStuff
-      value: 
-      objectReference: {fileID: 876355919}
-    - target: {fileID: 6593679373228868163, guid: ba602e818f20b924db1b2ff3448d9764, type: 3}
-      propertyPath: gameOverStuff
-      value: 
-      objectReference: {fileID: 1388465249}
-    - target: {fileID: 6593679373228868163, guid: ba602e818f20b924db1b2ff3448d9764, type: 3}
-      propertyPath: endLevelStuff
-      value: 
-      objectReference: {fileID: 77362362}
     - target: {fileID: 6593679373228868164, guid: ba602e818f20b924db1b2ff3448d9764, type: 3}
       propertyPath: m_LocalPosition.x
       value: 61.7517
