@@ -12,30 +12,30 @@ public class GameManager : MonoBehaviour
 
     Animator animator;
 
-     Text coinText;
-     Text xPText;
+    Text coinText;
+    Text xPText;
 
     public AudioClip deathSound;
     public AudioSource source;
 
-     GameObject tutorialStuff;
+    GameObject tutorialStuff;
 
-     GameObject gameUIStuff;
+    GameObject gameUIStuff;
 
-     GameObject gameOverStuff;
+    GameObject gameOverStuff;
 
-     GameObject endLevelStuff;
+    GameObject endLevelStuff;
 
     PlayerMovement playerMovement;
 
     Rigidbody2D rb;
-
 
     public int currentCoins;
     public int maxCoins;
 
     public int xPPoints;
 
+    public bool falling;
 
     bool gameStart = true;
     public bool levelOver = false;

@@ -21,6 +21,9 @@ public class PlayerMovement : MonoBehaviour
 
     public bool jump = false;
 
+    //check when falling so can use particle effect
+    public bool falling;
+
     public bool canMove;
 
     bool crouching = false;
@@ -67,67 +70,17 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
-        //if (climbing)
-        //{
-        //    verMove = Input.GetAxisRaw("Vertical") * climbSpeed;
-        //    canMove = false;
-        //    //controller.verticalMove(verMove * Time.fixedDeltaTime);
-
-        //    animator.SetBool("Grounded", true);
-
-
-        //    //Vector2 movement = new Vector2(0, verMove);
-
-        //    //playerRigidBody.AddForce(movement * 1);
-
-
-        //    //Vector2 movement = new Vector2(1, climbSpeed);
-        //    //transform.Translate(movement * Time.deltaTime);
-
-        //    if (Input.GetButtonDown("Jump"))
-        //    {
-        //        source.PlayOneShot(jumpSound, 0.3f);
-
-
-
-        //        ////jump sound effect
-
-
-        //        //transform.position = tonguePosition.position;
-
-        //        playerRigidBody.gravityScale = 10f;
-
-
-        //        jump = true;
-
-        //        animator.SetTrigger("Jump");
-
-        //        JumpFunction();
-
-
-        //        climbing = false;
-
-
-        //        canMove = true;
-
-
-        //        animator.SetBool("OnWall", false);
-
-
-
-        //    }
-        //}
 
         if (verMove == -1f)
         {
             crouching = true;
-            canMove = false;
+            //canMove = false;
         }
 
         if (verMove >= 0)
         {
             crouching = false;
-            canMove = true;
+            //canMove = true;
 
 
         }
