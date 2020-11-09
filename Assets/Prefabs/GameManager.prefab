@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathSound: {fileID: 8300000, guid: 41bb02b7469e1d44ea37043dae1ffe1b, type: 3}
+  winSound: {fileID: 8300000, guid: fc60772c2e75d1f4791719e4762b24cd, type: 3}
   source: {fileID: 58126841}
   currentCoins: 0
   maxCoins: 10

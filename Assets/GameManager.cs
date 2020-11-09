@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     Text xPText;
 
     public AudioClip deathSound;
+    public AudioClip winSound;
     public AudioSource source;
 
     GameObject tutorialStuff;
@@ -153,14 +154,22 @@ public class GameManager : MonoBehaviour
 
     public void EndLevel()
     {
+        source.PlayOneShot(winSound, 0.1f);
         //rb.velocity = new Vector2(0, 0);
         //rb.gravityScale = 0.0f;
         rb.inertia = 0.0f;
         rb.constraints = RigidbodyConstraints2D.FreezePosition;
         //playerMovement.animator.Play("Eddy_Idle_2");
-        playerMovement.animator.SetTrigger("HitSomething");
+        //playerMovement.animator.SetTrigger("HitSomething");
+        playerMovement.animator.Play("Eddy_Winning");
         playerMovement.canMove = false;
         gameUIStuff.SetActive(false);
+
+        Invoke("EndLevelUI", 3.0f);
+    }
+
+    public void EndLevelUI()
+    {
         endLevelStuff.SetActive(true);
 
     }

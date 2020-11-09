@@ -9,6 +9,10 @@ public class GroundCheck : MonoBehaviour
     public bool falling;
     public bool canPlayLanding;
 
+    //sound stuff
+    public AudioSource source;
+    public AudioClip landingSound;
+
     [SerializeField]
     GameObject dustCloud;
 
@@ -37,6 +41,7 @@ public class GroundCheck : MonoBehaviour
         {
             //Instantiate(dustCloud, transform.position, dustCloud.transform.rotation);
             landingDust.Play();
+            source.PlayOneShot(landingSound, 0.3f);
             canPlayLanding = false;
             falling = false;
             Debug.Log("land");
