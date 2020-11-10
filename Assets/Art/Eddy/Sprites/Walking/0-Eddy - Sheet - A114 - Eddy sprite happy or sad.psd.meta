@@ -8,6 +8,12 @@ TextureImporter:
   - first:
       213: 2911476641964602123
     second: 0-Eddy - Sheet - A114 - Eddy sprite happy or sad_1
+  - first:
+      213: -2366521591861699611
+    second: 0-Eddy - Sheet - A114 - Eddy sprite happy or sad_0
+  - first:
+      213: -6744596745024094888
+    second: 0-Eddy - Sheet - A114 - Eddy sprite happy or sad_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -172,7 +178,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 590.5
+        width: 768.5
         height: 1181
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -181,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dda9987c2c0a9eaa0800000000000000
-      internalID: -6131192659256436003
+      spriteID: 5eb9acb862d682fd0800000000000000
+      internalID: -2366521591861699611
       vertices: []
       indices: 
       edges: []
@@ -191,9 +197,9 @@ TextureImporter:
       name: 0-Eddy - Sheet - A114 - Eddy sprite happy or sad_1
       rect:
         serializedVersion: 2
-        x: 590
+        x: 768
         y: 0
-        width: 590.5
+        width: 768.5
         height: 1181
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -202,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b03b5288494a76820800000000000000
-      internalID: 2911476641964602123
+      spriteID: 85d359baef06662a0800000000000000
+      internalID: -6744596745024094888
       vertices: []
       indices: 
       edges: []
