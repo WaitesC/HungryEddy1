@@ -1398,7 +1398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 67517034}
   - component: {fileID: 67517035}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: BD Parallax-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1644,7 +1644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 83601072}
   - component: {fileID: 83601073}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: BD Parallax-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2391,7 +2391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 138755168}
   - component: {fileID: 138755169}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: BD Parallax-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2569,7 +2569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 148409631}
   - component: {fileID: 148409632}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: BD Parallax-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2922,7 +2922,7 @@ GameObject:
   m_Component:
   - component: {fileID: 198633390}
   - component: {fileID: 198633391}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: BD Parallax-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3151,7 +3151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 213686122}
   - component: {fileID: 213686123}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: BD Parallax-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8821,6 +8821,78 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &241192911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 241192912}
+  - component: {fileID: 241192913}
+  m_Layer: 0
+  m_Name: Point Light 2D (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &241192912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241192911}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9409531, w: 0.3385371}
+  m_LocalPosition: {x: 470, y: 200, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 887238279}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &241192913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241192911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.5
+  m_LightVolumeOpacity: 0.59
+  m_ApplyToSortingLayers: 999b51e8
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 10.57
+  m_PointLightOuterAngle: 18.14
+  m_PointLightInnerRadius: 9.938547
+  m_PointLightOuterRadius: 366.49222
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &258051174
 GameObject:
   m_ObjectHideFlags: 0
@@ -8831,7 +8903,7 @@ GameObject:
   m_Component:
   - component: {fileID: 258051175}
   - component: {fileID: 258051176}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: BD Parallax-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9110,7 +9182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 275420403}
   - component: {fileID: 275420404}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: BD Parallax-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9628,7 +9700,7 @@ GameObject:
   m_Component:
   - component: {fileID: 305066829}
   - component: {fileID: 305066830}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: BD Parallax-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11265,7 +11337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 364192310}
   - component: {fileID: 364192311}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: BD Parallax-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13196,7 +13268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 471226688}
   - component: {fileID: 471226689}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: BD Parallax-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13278,7 +13350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 472801083}
   - component: {fileID: 472801084}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: BD Parallax-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13360,7 +13432,7 @@ GameObject:
   m_Component:
   - component: {fileID: 476052392}
   - component: {fileID: 476052393}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: BD Parallax-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19018,7 +19090,7 @@ GameObject:
   - component: {fileID: 517040704}
   - component: {fileID: 517040706}
   - component: {fileID: 517040705}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Parallax 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19589,7 +19661,7 @@ GameObject:
   m_Component:
   - component: {fileID: 523998650}
   - component: {fileID: 523998651}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: BD Parallax-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20253,7 +20325,7 @@ GameObject:
   - component: {fileID: 555366953}
   - component: {fileID: 555366955}
   - component: {fileID: 555366954}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Parallax 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20523,7 +20595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 576369111}
   - component: {fileID: 576369112}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: BD Parallax-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20687,7 +20759,7 @@ GameObject:
   m_Component:
   - component: {fileID: 580648457}
   - component: {fileID: 580648458}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: BD Parallax-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22013,7 +22085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 633029678}
   - component: {fileID: 633029679}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: BD Parallax-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22698,7 +22770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 653857846}
   - component: {fileID: 653857847}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: BD Parallax-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22984,7 +23056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 689421588}
   - component: {fileID: 689421589}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: BD Parallax-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24027,6 +24099,78 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &736214950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 736214951}
+  - component: {fileID: 736214952}
+  m_Layer: 0
+  m_Name: Point Light 2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &736214951
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736214950}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9409531, w: 0.3385371}
+  m_LocalPosition: {x: 170, y: 200, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 887238279}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &736214952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736214950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.5
+  m_LightVolumeOpacity: 0.6
+  m_ApplyToSortingLayers: 999b51e8
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 10.57
+  m_PointLightOuterAngle: 18.14
+  m_PointLightInnerRadius: 9.938547
+  m_PointLightOuterRadius: 366.49222
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &739581648
 GameObject:
   m_ObjectHideFlags: 0
@@ -24236,7 +24380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 740867144}
   - component: {fileID: 740867145}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: BD Parallax-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24428,7 +24572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 752061797}
   - component: {fileID: 752061798}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: BD Parallax-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27588,6 +27732,47 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &887238278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 887238279}
+  m_Layer: 0
+  m_Name: Lighing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &887238279
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887238278}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.730487, y: 17.79308, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1152033404}
+  - {fileID: 736214951}
+  - {fileID: 1073887288}
+  - {fileID: 1207349510}
+  - {fileID: 241192912}
+  - {fileID: 1782844086}
+  - {fileID: 1138907960}
+  - {fileID: 946440514}
+  - {fileID: 1457396817}
+  - {fileID: 1313412333}
+  - {fileID: 1812445670}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &888598809
 GameObject:
   m_ObjectHideFlags: 0
@@ -28330,7 +28515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 895701265}
   - component: {fileID: 895701266}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: BD Parallax-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28412,7 +28597,7 @@ GameObject:
   m_Component:
   - component: {fileID: 904155816}
   - component: {fileID: 904155817}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: BD Parallax-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28604,7 +28789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 909259099}
   - component: {fileID: 909259100}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: BD Parallax-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29674,6 +29859,78 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &946440513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 946440514}
+  - component: {fileID: 946440515}
+  m_Layer: 0
+  m_Name: Point Light 2D (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &946440514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946440513}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9409531, w: 0.3385371}
+  m_LocalPosition: {x: 770, y: 200, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 887238279}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &946440515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946440513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.5
+  m_LightVolumeOpacity: 0.59
+  m_ApplyToSortingLayers: 999b51e8
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 10.57
+  m_PointLightOuterAngle: 18.14
+  m_PointLightInnerRadius: 9.938547
+  m_PointLightOuterRadius: 366.49222
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &961304286
 GameObject:
   m_ObjectHideFlags: 0
@@ -31799,6 +32056,78 @@ Transform:
   m_Father: {fileID: 1081833797}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1073887287
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1073887288}
+  - component: {fileID: 1073887289}
+  m_Layer: 0
+  m_Name: Point Light 2D (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1073887288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073887287}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9409531, w: 0.3385371}
+  m_LocalPosition: {x: 270, y: 200, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 887238279}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1073887289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073887287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.5
+  m_LightVolumeOpacity: 0.59
+  m_ApplyToSortingLayers: 999b51e8
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 10.57
+  m_PointLightOuterAngle: 18.14
+  m_PointLightInnerRadius: 9.938547
+  m_PointLightOuterRadius: 366.49222
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &1076436495
 GameObject:
   m_ObjectHideFlags: 0
@@ -31809,7 +32138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1076436496}
   - component: {fileID: 1076436497}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: BD Parallax-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37635,7 +37964,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1126529408}
   - component: {fileID: 1126529409}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: BD Parallax-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37786,6 +38115,78 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1134442331}
   m_CullTransparentMesh: 0
+--- !u!1 &1138907959
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1138907960}
+  - component: {fileID: 1138907961}
+  m_Layer: 0
+  m_Name: Point Light 2D (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1138907960
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138907959}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9409531, w: 0.3385371}
+  m_LocalPosition: {x: 670, y: 200, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 887238279}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1138907961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138907959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.5
+  m_LightVolumeOpacity: 0.59
+  m_ApplyToSortingLayers: 999b51e8
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 10.57
+  m_PointLightOuterAngle: 18.14
+  m_PointLightInnerRadius: 9.938547
+  m_PointLightOuterRadius: 366.49222
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &1145794571
 GameObject:
   m_ObjectHideFlags: 0
@@ -38070,6 +38471,78 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1152033403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1152033404}
+  - component: {fileID: 1152033405}
+  m_Layer: 0
+  m_Name: Global Light 2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1152033404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152033403}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1366}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 887238279}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1152033405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152033403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 4
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 10
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 00000000999b51e8ef661dafff4138f365233afe
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &1157742111
 GameObject:
   m_ObjectHideFlags: 0
@@ -38393,7 +38866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1170898494}
   - component: {fileID: 1170898495}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: BD Parallax-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38557,7 +39030,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1187864135}
   - component: {fileID: 1187864136}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: BD Parallax-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39036,6 +39509,78 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202595490}
   m_CullTransparentMesh: 0
+--- !u!1 &1207349509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1207349510}
+  - component: {fileID: 1207349511}
+  m_Layer: 0
+  m_Name: Point Light 2D (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1207349510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207349509}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9409531, w: 0.3385371}
+  m_LocalPosition: {x: 370, y: 200, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 887238279}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1207349511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207349509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.5
+  m_LightVolumeOpacity: 0.59
+  m_ApplyToSortingLayers: 999b51e8
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 10.57
+  m_PointLightOuterAngle: 18.14
+  m_PointLightInnerRadius: 9.938547
+  m_PointLightOuterRadius: 366.49222
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &1226548854
 GameObject:
   m_ObjectHideFlags: 0
@@ -39840,7 +40385,7 @@ GameObject:
   - component: {fileID: 1287119743}
   - component: {fileID: 1287119745}
   - component: {fileID: 1287119744}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Parallax 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40190,6 +40735,78 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1313412332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1313412333}
+  - component: {fileID: 1313412334}
+  m_Layer: 0
+  m_Name: Point Light 2D (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1313412333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313412332}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9409531, w: 0.3385371}
+  m_LocalPosition: {x: 970, y: 200, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 887238279}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1313412334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313412332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.5
+  m_LightVolumeOpacity: 0.59
+  m_ApplyToSortingLayers: 999b51e8
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 10.57
+  m_PointLightOuterAngle: 18.14
+  m_PointLightInnerRadius: 9.938547
+  m_PointLightOuterRadius: 366.49222
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &1317792887
 GameObject:
   m_ObjectHideFlags: 0
@@ -45957,7 +46574,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1388015385}
   - component: {fileID: 1388015386}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: BD Parallax-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47388,6 +48005,78 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2990683560598495632, guid: 4fc1246197411d049be0256076c534a4, type: 3}
   m_PrefabInstance: {fileID: 1457276300}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1457396816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1457396817}
+  - component: {fileID: 1457396818}
+  m_Layer: 0
+  m_Name: Point Light 2D (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1457396817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457396816}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9409531, w: 0.3385371}
+  m_LocalPosition: {x: 870, y: 200, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 887238279}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1457396818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457396816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.5
+  m_LightVolumeOpacity: 0.59
+  m_ApplyToSortingLayers: 999b51e8
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 10.57
+  m_PointLightOuterAngle: 18.14
+  m_PointLightInnerRadius: 9.938547
+  m_PointLightOuterRadius: 366.49222
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &1457704410
 GameObject:
   m_ObjectHideFlags: 0
@@ -47398,7 +48087,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1457704411}
   - component: {fileID: 1457704412}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: BD Parallax-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47480,7 +48169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1466582228}
   - component: {fileID: 1466582229}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: BD Parallax-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54327,7 +55016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1524394201}
   - component: {fileID: 1524394202}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: BD Parallax-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54552,7 +55241,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1525377080}
   - component: {fileID: 1525377081}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: BD Parallax-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54970,6 +55659,14 @@ PrefabInstance:
     - target: {fileID: 4310397985286091521, guid: 48d75685658832846a371bf3e3045b33, type: 3}
       propertyPath: m_RenderMode
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4310397985286091521, guid: 48d75685658832846a371bf3e3045b33, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 4310397985286091521, guid: 48d75685658832846a371bf3e3045b33, type: 3}
+      propertyPath: m_MaxParticleSize
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4310397985286091526, guid: 48d75685658832846a371bf3e3045b33, type: 3}
       propertyPath: InitialModule.startColor.maxColor.a
@@ -55563,7 +56260,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1586591678}
   - component: {fileID: 1586591679}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: BD Parallax-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56231,7 +56928,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1617813522}
   - component: {fileID: 1617813523}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: BD Parallax-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61124,6 +61821,150 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1782844085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1782844086}
+  - component: {fileID: 1782844087}
+  m_Layer: 0
+  m_Name: Point Light 2D (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1782844086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782844085}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9409531, w: 0.3385371}
+  m_LocalPosition: {x: 570, y: 200, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 887238279}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1782844087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782844085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.5
+  m_LightVolumeOpacity: 0.59
+  m_ApplyToSortingLayers: 999b51e8
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 10.57
+  m_PointLightOuterAngle: 18.14
+  m_PointLightInnerRadius: 9.938547
+  m_PointLightOuterRadius: 366.49222
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
+--- !u!1 &1812445669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1812445670}
+  - component: {fileID: 1812445671}
+  m_Layer: 0
+  m_Name: Point Light 2D (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1812445670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812445669}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9409531, w: 0.3385371}
+  m_LocalPosition: {x: 1070, y: 200, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 887238279}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1812445671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812445669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.5
+  m_LightVolumeOpacity: 0.59
+  m_ApplyToSortingLayers: 999b51e8
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 10.57
+  m_PointLightOuterAngle: 18.14
+  m_PointLightInnerRadius: 9.938547
+  m_PointLightOuterRadius: 366.49222
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &1816758475
 GameObject:
   m_ObjectHideFlags: 0
@@ -67089,7 +67930,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1914427666}
   - component: {fileID: 1914427667}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: BD Parallax-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68377,7 +69218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1987943063}
   - component: {fileID: 1987943064}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: BD Parallax-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68693,7 +69534,7 @@ GameObject:
   - component: {fileID: 2013221916}
   - component: {fileID: 2013221918}
   - component: {fileID: 2013221917}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Parallax 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69025,7 +69866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2017266021}
   - component: {fileID: 2017266022}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: BD Parallax-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69606,7 +70447,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2046091973}
   - component: {fileID: 2046091974}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: BD Parallax-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75977,7 +76818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2105526315}
   - component: {fileID: 2105526316}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: BD Parallax-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
