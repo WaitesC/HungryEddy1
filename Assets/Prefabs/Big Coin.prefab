@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: -29744283
   m_SortingLayer: 4
   m_SortingOrder: 1
-  m_Sprite: {fileID: 6086836011766881706, guid: 0d97a293f0c55ee47b6cf3ffb7b66912, type: 3}
+  m_Sprite: {fileID: 1037631969399211309, guid: 61f157cbdffd19944917fdfb9bba8ef9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -122,7 +122,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 17.818, y: 17.878902}
+    oldSize: {x: 16.262, y: 16.317581}
     newSize: {x: 17.818, y: 17.878902}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -148,6 +148,8 @@ MonoBehaviour:
   bigCoinValue: 100
   smallCoinSound: {fileID: 0}
   bigCoinSound: {fileID: 0}
+  smallCoinParticles: {fileID: 0}
+  bigCoinParticles: {fileID: 0}
 --- !u!82 &2990683560598495631
 AudioSource:
   m_ObjectHideFlags: 0
