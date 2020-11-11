@@ -50,9 +50,10 @@ public class SwingController : MonoBehaviour
 
         }
 
-        Swing();
 
         CheckForVines();
+
+        Swing();
     }
 
     void Swing()

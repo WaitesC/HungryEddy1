@@ -11,6 +11,9 @@ public class MenuController : MonoBehaviour
     public GameObject MainMenuObj;
     public GameObject SettingsObj;
     public GameObject ControllerObj;
+    public GameObject QuitObj;
+    public GameObject CreditsObj;
+    public GameObject VolumeObj;
 
     public Animator transitionAnimator;
 
@@ -61,6 +64,9 @@ public class MenuController : MonoBehaviour
         MainMenuObj.SetActive(false);
         SettingsObj.SetActive(false);
         ControllerObj.SetActive(false);
+        QuitObj.SetActive(false);
+        CreditsObj.SetActive(false);
+        VolumeObj.SetActive(false);
 
 
         Invoke("SplashLogo", 7.0f);
@@ -75,6 +81,9 @@ public class MenuController : MonoBehaviour
         MainMenuObj.SetActive(false);
         SettingsObj.SetActive(false);
         ControllerObj.SetActive(false);
+        QuitObj.SetActive(false);
+        CreditsObj.SetActive(false);
+        VolumeObj.SetActive(false);
 
 
 
@@ -87,6 +96,9 @@ public class MenuController : MonoBehaviour
         MainMenuObj.SetActive(true);
         SettingsObj.SetActive(false);
         ControllerObj.SetActive(false);
+        QuitObj.SetActive(false);
+        CreditsObj.SetActive(false);
+        VolumeObj.SetActive(false);
 
 
     }
@@ -98,10 +110,13 @@ public class MenuController : MonoBehaviour
         MainMenuObj.SetActive(false);
         SettingsObj.SetActive(true);
         ControllerObj.SetActive(false);
+        QuitObj.SetActive(false);
+        CreditsObj.SetActive(false);
+        VolumeObj.SetActive(false);
 
 
     }
-    
+
     public void Controller()
     {
         StudioPageObj.SetActive(false);
@@ -109,9 +124,57 @@ public class MenuController : MonoBehaviour
         MainMenuObj.SetActive(false);
         SettingsObj.SetActive(false);
         ControllerObj.SetActive(true);
+        QuitObj.SetActive(false);
+        CreditsObj.SetActive(false);
+        VolumeObj.SetActive(false);
 
 
     }
+
+    public void Quit()
+    {
+        StudioPageObj.SetActive(false);
+        SplashLogoObj.SetActive(false);
+        MainMenuObj.SetActive(false);
+        SettingsObj.SetActive(false);
+        ControllerObj.SetActive(false);
+        QuitObj.SetActive(true);
+        CreditsObj.SetActive(false);
+        VolumeObj.SetActive(false);
+
+
+    }
+
+    public void Credits()
+    {
+        StudioPageObj.SetActive(false);
+        SplashLogoObj.SetActive(false);
+        MainMenuObj.SetActive(false);
+        SettingsObj.SetActive(false);
+        ControllerObj.SetActive(false);
+        QuitObj.SetActive(false);
+        CreditsObj.SetActive(true);
+        VolumeObj.SetActive(false);
+
+
+    }
+
+    public void Volume()
+    {
+        StudioPageObj.SetActive(false);
+        SplashLogoObj.SetActive(false);
+        MainMenuObj.SetActive(false);
+        SettingsObj.SetActive(false);
+        ControllerObj.SetActive(false);
+        QuitObj.SetActive(false);
+        CreditsObj.SetActive(false);
+        VolumeObj.SetActive(true);
+
+
+    }
+
+
+
 
     public void NewGame()
     {
