@@ -15,12 +15,17 @@ public class CoinCounter : MonoBehaviour
     public AudioClip smallCoinSound;
     public AudioClip bigCoinSound;
 
+    public ParticleSystem smallCoinParticles;
+    public ParticleSystem bigCoinParticles;
+
     SpriteRenderer spriteRenderer;
     BoxCollider2D boxCollider2D;
 
     void Start()
     {
         source = gameObject.GetComponent<AudioSource>();
+
+        //particleSystem = gameObject.GetComponent<ParticleSystem>();
 
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
 
@@ -38,6 +43,8 @@ public class CoinCounter : MonoBehaviour
 
                 source.PlayOneShot(smallCoinSound, 0.3f);
 
+                Instantiate(smallCoinParticles, transform.position, Quaternion.identity);
+
                 //Destroy(gameObject);
                 OnPickup();
             }
@@ -48,7 +55,11 @@ public class CoinCounter : MonoBehaviour
             if (collider.gameObject.tag == "Player")
             {
                 FindObjectOfType<GameManager>().currentCoins += bigCoinValue;
+                
                 source.PlayOneShot(bigCoinSound, 0.3f);
+
+                Instantiate(bigCoinParticles, transform.position, Quaternion.identity);
+                // bigCoinParticles.play();
 
                 //Destroy(gameObject);
                 OnPickup();

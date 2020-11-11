@@ -10,7 +10,7 @@ public class EndLevel : MonoBehaviour
         if (collider.gameObject.tag == "Player")
         {
 
-
+            FindObjectOfType<CoinCounter>();
             FindObjectOfType<GameManager>().EndLevel();
             FindObjectOfType<GameManager>().levelOver = true;
 
