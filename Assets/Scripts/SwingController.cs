@@ -60,8 +60,17 @@ public class SwingController : MonoBehaviour
     {
         if (swinging)
         {
+            rb.velocity = Vector3.zero;
+
+            rb.constraints = RigidbodyConstraints2D.FreezePosition;
+
+            playerMovement.canMove = false;
+
             if (Input.GetButtonDown("Jump"))
             {
+
+                rb.constraints = RigidbodyConstraints2D.None;
+
                 //sets player position
                 player.position = swingPosition.position;
                 //sets jump bool to true for duration of jump

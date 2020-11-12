@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    public GameObject StudioPageObj;
+    //public GameObject StudioPageObj;
     public GameObject SplashLogoObj;
     public GameObject MainMenuObj;
     public GameObject SettingsObj;
@@ -15,18 +15,19 @@ public class MenuController : MonoBehaviour
     public GameObject CreditsObj;
     public GameObject VolumeObj;
 
-    public Animator transitionAnimator;
+    //public Animator transitionAnimator;
 
     GameObject transition;
 
     // Start is called before the first frame update
     void Start()
     {
-        transitionAnimator = GameObject.Find("Transition").GetComponent<Animator>();
-        transition = GameObject.Find("Transition");
+        //transitionAnimator = GameObject.Find("Transition").GetComponent<Animator>();
+        //transition = GameObject.Find("Transition");
 
-        StudioPage();
-        TransitionStart();
+        //StudioPage();
+        SplashLogo();
+        //TransitionStart();
 
     }
 
@@ -39,7 +40,7 @@ public class MenuController : MonoBehaviour
     void TransitionStart()
     {
         //do transition stuff
-        transitionAnimator.Play("TransitionAnimationStart");
+        //transitionAnimator.Play("TransitionAnimationStart");
     }
 
     void TransitionFull()
@@ -59,7 +60,7 @@ public class MenuController : MonoBehaviour
 
     public void StudioPage()
     {
-        StudioPageObj.SetActive(true);
+        //StudioPageObj.SetActive(true);
         SplashLogoObj.SetActive(false);
         MainMenuObj.SetActive(false);
         SettingsObj.SetActive(false);
@@ -74,9 +75,9 @@ public class MenuController : MonoBehaviour
 
     public void SplashLogo()
     {
-        transition.SetActive(false);
+        //transition.SetActive(false);
 
-        StudioPageObj.SetActive(false);
+        //StudioPageObj.SetActive(false);
         SplashLogoObj.SetActive(true);
         MainMenuObj.SetActive(false);
         SettingsObj.SetActive(false);
@@ -91,7 +92,7 @@ public class MenuController : MonoBehaviour
 
     public void MainMenu()
     {
-        StudioPageObj.SetActive(false);
+        //StudioPageObj.SetActive(false);
         SplashLogoObj.SetActive(false);
         MainMenuObj.SetActive(true);
         SettingsObj.SetActive(false);
@@ -105,7 +106,7 @@ public class MenuController : MonoBehaviour
 
     public void Settings()
     {
-        StudioPageObj.SetActive(false);
+        //StudioPageObj.SetActive(false);
         SplashLogoObj.SetActive(false);
         MainMenuObj.SetActive(false);
         SettingsObj.SetActive(true);
@@ -119,7 +120,7 @@ public class MenuController : MonoBehaviour
 
     public void Controller()
     {
-        StudioPageObj.SetActive(false);
+        //StudioPageObj.SetActive(false);
         SplashLogoObj.SetActive(false);
         MainMenuObj.SetActive(false);
         SettingsObj.SetActive(false);
@@ -133,7 +134,7 @@ public class MenuController : MonoBehaviour
 
     public void Quit()
     {
-        StudioPageObj.SetActive(false);
+        //StudioPageObj.SetActive(false);
         SplashLogoObj.SetActive(false);
         MainMenuObj.SetActive(false);
         SettingsObj.SetActive(false);
@@ -147,7 +148,7 @@ public class MenuController : MonoBehaviour
 
     public void Credits()
     {
-        StudioPageObj.SetActive(false);
+        //StudioPageObj.SetActive(false);
         SplashLogoObj.SetActive(false);
         MainMenuObj.SetActive(false);
         SettingsObj.SetActive(false);
@@ -161,7 +162,7 @@ public class MenuController : MonoBehaviour
 
     public void Volume()
     {
-        StudioPageObj.SetActive(false);
+        //StudioPageObj.SetActive(false);
         SplashLogoObj.SetActive(false);
         MainMenuObj.SetActive(false);
         SettingsObj.SetActive(false);

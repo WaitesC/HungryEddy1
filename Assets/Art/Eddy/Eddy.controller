@@ -373,7 +373,7 @@ AnimatorStateMachine:
     m_Position: {x: 400, y: 320, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8469614151650203538}
-    m_Position: {x: 410, y: -520, z: 0}
+    m_Position: {x: 520, y: -560, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1678227354315110004}
     m_Position: {x: -260, y: -710, z: 0}
@@ -382,28 +382,28 @@ AnimatorStateMachine:
     m_Position: {x: -420, y: 230, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7238793413216742159}
-    m_Position: {x: -290, y: -80, z: 0}
+    m_Position: {x: -300, y: 40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6968243036668695402}
-    m_Position: {x: -350, y: 30, z: 0}
+    m_Position: {x: -340, y: 110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 772649100993175013}
-    m_Position: {x: -50, y: 120, z: 0}
+    m_Position: {x: -50, y: 190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3930758127873409578}
     m_Position: {x: -170, y: 370, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7850265321322463973}
-    m_Position: {x: -320, y: -170, z: 0}
+    m_Position: {x: -250, y: -160, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6439911852323620844}
-    m_Position: {x: -200, y: -340, z: 0}
+    m_Position: {x: -120, y: -340, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2456952541196909000}
-    m_Position: {x: -20, y: -160, z: 0}
+    m_Position: {x: 40, y: -180, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5486858021270065225}
-    m_Position: {x: -270, y: -930, z: 0}
+    m_Position: {x: -280, y: -990, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8927969986067672586}
     m_Position: {x: -430, y: -810, z: 0}
@@ -412,7 +412,7 @@ AnimatorStateMachine:
     m_Position: {x: 0, y: -960, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5845783988873329813}
-    m_Position: {x: 290, y: -960, z: 0}
+    m_Position: {x: 200, y: -970, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4740517211937125896}
     m_Position: {x: 355, y: -845, z: 0}
