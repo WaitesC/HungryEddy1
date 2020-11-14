@@ -17,7 +17,7 @@ public class EnemyDamageController : MonoBehaviour
     //sounds
     public AudioClip playerHurtSound;
 
-
+    bool takingDamage;
 
 
     //var playerMaterialRenderer;
@@ -48,19 +48,29 @@ public class EnemyDamageController : MonoBehaviour
     {
         dir = (playerPos.position - transform.position).normalized;
 
-        
-    }
-
-    void OnTriggerStay2D(Collider2D col)
-    {
-        if(col.gameObject.name == "Player")
+        if (takingDamage)
         {
             healthController.currentHealth -= damage;
+            playerRigidbody.AddForce(dir * thrust, ForceMode2D.Impulse);
+
+            //if()
+                
+
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if(col.gameObject.name == "Player" && !source.isPlaying)
+        {
+            takingDamage = true;
 
             source.PlayOneShot(playerHurtSound, 0.1f);
 
 
-            playerRigidbody.AddForce(dir * thrust, ForceMode2D.Impulse);
+
+
+
         }
         
     }

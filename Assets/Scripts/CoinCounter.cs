@@ -6,6 +6,8 @@ using UnityEngine;
 public class CoinCounter : MonoBehaviour
 {
     AudioSource source;
+
+    GameManager gameManager;
     
     public bool isBigCoin;
 
@@ -23,6 +25,8 @@ public class CoinCounter : MonoBehaviour
 
     void Start()
     {
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+
         source = gameObject.GetComponent<AudioSource>();
 
         //particleSystem = gameObject.GetComponent<ParticleSystem>();
@@ -30,6 +34,8 @@ public class CoinCounter : MonoBehaviour
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
 
         boxCollider2D = gameObject.GetComponent<BoxCollider2D>();
+
+
     }
 
     void OnTriggerEnter2D(Collider2D collider)
@@ -39,7 +45,7 @@ public class CoinCounter : MonoBehaviour
             //if player picks up small coin
             if (collider.gameObject.tag == "Player")
             {
-                FindObjectOfType<GameManager>().currentCoins += smallCoinValue;
+                gameManager.currentCoins += smallCoinValue;
 
                 source.PlayOneShot(smallCoinSound, 0.3f);
 
@@ -54,7 +60,7 @@ public class CoinCounter : MonoBehaviour
         {
             if (collider.gameObject.tag == "Player")
             {
-                FindObjectOfType<GameManager>().currentCoins += bigCoinValue;
+                gameManager.currentCoins += bigCoinValue;
                 
                 source.PlayOneShot(bigCoinSound, 0.3f);
 

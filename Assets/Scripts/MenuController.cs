@@ -42,6 +42,11 @@ public class MenuController : MonoBehaviour
 
     }
 
+    public void ActuallyQuit()
+    {
+        Application.Quit();
+    }
+
     public void MainMenu()
     {
         clearScreen();

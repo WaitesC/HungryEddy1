@@ -51,7 +51,7 @@ public class GameManager : MonoBehaviour
 
         animator = GameObject.Find("Player").GetComponent<Animator>();
 
-        tutorialStuff = GameObject.Find("Tutorial Stuff");
+        //tutorialStuff = GameObject.Find("Tutorial Stuff");
         gameUIStuff = GameObject.Find("Game UI stuff");
         gameOverStuff = GameObject.Find("Game Over stuff");
         endLevelStuff = GameObject.Find("End Level stuff");
@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("gameovber");
             Invoke("GameOverScreen", 2.3f);
-            source.PlayOneShot(deathSound, 0.2f);
+            source.PlayOneShot(deathSound, 0.000001f);
             animator.Play("Eddy_Dead");
 
         }
@@ -85,7 +85,7 @@ public class GameManager : MonoBehaviour
 
         if (gameStart)
         {
-            StartGameScreen();
+            //StartGameScreen();
 
         }
 
@@ -134,21 +134,21 @@ public class GameManager : MonoBehaviour
     void StartGameScreen()
     {
 
-        gameUIStuff.SetActive(false);
-        gameOverStuff.SetActive(false);
-        endLevelStuff.SetActive(false);
+        //gameUIStuff.SetActive(false);
+        //gameOverStuff.SetActive(false);
+        //endLevelStuff.SetActive(false);
 
 
-        playerMovement.canMove = false;
+        //playerMovement.canMove = false;
 
-        if (Input.GetButtonDown("Jump"))
-        {
-            gameStart = false;
+        //if (Input.GetButtonDown("Jump"))
+        //{
+            //gameStart = false;
             gameUIStuff.SetActive(true);
-            tutorialStuff.SetActive(false);
+            //tutorialStuff.SetActive(false);
             playerMovement.canMove = true;
 
-        }
+        //}
 
     }
 

@@ -14,11 +14,14 @@ public class HealthController : MonoBehaviour
 
     HealthBar healthBar;
 
+    GameManager gameManager;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+
         healthBar = GameObject.Find("Health Bar").GetComponent<HealthBar>();
 
         currentHealth = maxHealth;
@@ -34,14 +37,14 @@ public class HealthController : MonoBehaviour
 
         healthBar.SetHealth(currentHealth);
 
-        if(currentHealth<0)
+        if (currentHealth <= 0) 
         {
             //die
             playerMovement.canMove = false;
             rb.velocity = new Vector2(0, 0);
             rb.gravityScale = 0.0f;
 
-            FindObjectOfType<GameManager>().GameOver();
+            gameManager.GameOver();
         }
     }
 
