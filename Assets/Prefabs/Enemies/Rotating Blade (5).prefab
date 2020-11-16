@@ -149,7 +149,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 3
+      scalar: 1.2
       minScalar: 0.5
       maxCurve:
         serializedVersion: 2
@@ -5020,7 +5020,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 1.8
       minScalar: 0.5
       maxCurve:
         serializedVersion: 2
@@ -9957,7 +9957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d39fab4d97b0b743a0464d15d170d7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedRotate: 50
+  speedRotate: 80
   rotateClockwise: 0
 --- !u!60 &719523373418224292
 PolygonCollider2D:
