@@ -18,11 +18,14 @@ public class SwingController : MonoBehaviour
 
     public Rigidbody2D rb;
 
+    CharacterController2D characterController2D;
 
     public PlayerMovement playerMovement;
 
     bool swinging;
     public bool lookingForVine;
+
+    public float vineOffset;
 
 
     // Start is called before the first frame update
@@ -30,6 +33,8 @@ public class SwingController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         tailPointObject.SetActive(false);
+
+        characterController2D = GameObject.Find("Player").GetComponent<CharacterController2D>();
     }
 
     // Update is called once per frame
@@ -40,9 +45,9 @@ public class SwingController : MonoBehaviour
 
         if (Input.GetButtonDown("Swing"))
         {
-            rb.velocity = Vector3.zero;
+            //rb.velocity = Vector3.zero;
 
-            playerMovement.canMove = false;
+            //playerMovement.canMove = false;
 
 
             animator.SetTrigger("SwingAttack");
@@ -60,6 +65,8 @@ public class SwingController : MonoBehaviour
     {
         if (swinging)
         {
+            characterController2D.m_Grounded = true;
+
             rb.velocity = Vector3.zero;
 
             rb.constraints = RigidbodyConstraints2D.FreezePosition;
@@ -68,21 +75,22 @@ public class SwingController : MonoBehaviour
 
             if (Input.GetButtonDown("Jump"))
             {
-
+                //playerMovement.jump = true;
                 rb.constraints = RigidbodyConstraints2D.None;
+                rb.constraints = RigidbodyConstraints2D.FreezeRotation;
 
                 //sets player position
                 player.position = swingPosition.position;
-                //sets jump bool to true for duration of jump
-                playerMovement.jump = true;
-                //set animation jump trigger
-                animator.SetTrigger("Jump");
-                //perform jump function
-                playerMovement.JumpFunction();
                 //no longer swining
                 swinging = false;
                 //player can move again
                 playerMovement.canMove = true;
+                //sets jump bool to true for duration of jump
+                playerMovement.jump = true;
+                //perform jump function
+                playerMovement.JumpFunction();
+                //set animation jump trigger
+                animator.SetTrigger("Jump");
             }
         }
 
@@ -111,7 +119,11 @@ public class SwingController : MonoBehaviour
 
                 playerMovement.canMove = false;
 
+                characterController2D.m_Grounded = true;
+
                 swinging = true;
+
+                gameObject.transform.position = new Vector3 ( transform.position.x, vine.gameObject.transform.position.y + vineOffset, 0);
             }
             
 

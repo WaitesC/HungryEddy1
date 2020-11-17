@@ -13,13 +13,16 @@ public class GameManager : MonoBehaviour
     Animator animator;
 
     Text coinText;
+    Text coinTextEnd;
     Text xPText;
+
+    int coinNum;
 
     public AudioClip deathSound;
     public AudioClip winSound;
     public AudioSource source;
 
-    GameObject tutorialStuff;
+    GameObject tutorial1;
 
     GameObject gameUIStuff;
 
@@ -39,6 +42,7 @@ public class GameManager : MonoBehaviour
     public bool falling;
 
     bool gameStart = true;
+    bool tutorialTime = false;
     public bool levelOver = false;
 
     void Start()
@@ -51,16 +55,48 @@ public class GameManager : MonoBehaviour
 
         animator = GameObject.Find("Player").GetComponent<Animator>();
 
-        //tutorialStuff = GameObject.Find("Tutorial Stuff");
+        tutorial1 = GameObject.Find("Tutorial 1");
         gameUIStuff = GameObject.Find("Game UI stuff");
         gameOverStuff = GameObject.Find("Game Over stuff");
         endLevelStuff = GameObject.Find("End Level stuff");
 
+        maxCoins = GameObject.FindGameObjectsWithTag("SmallCoin").Length;
+
         coinText = GameObject.Find("Coin Counter Text").GetComponent<Text>();
+        coinTextEnd = GameObject.Find("Coin Counter Text End").GetComponent<Text>();
         xPText = GameObject.Find("XP text").GetComponent<Text>();
 
+        //maxCoins = coinNum;
 
 
+        CanvasStart();
+
+
+        if (SceneManager.GetActiveScene().name == "Level 1")
+            Level1Tutorial();
+    }
+
+    public void Level1Tutorial()
+    {
+        playerMovement.canMove = false;
+        //gameUIStuff.SetActive(false);
+        tutorial1.SetActive(true);
+        tutorialTime = true;
+    }
+
+    public void EndTutorial()
+    {
+        CanvasStart();
+        playerMovement.canMove = true;
+        //gameUIStuff.SetActive(true);
+    }
+
+
+    void CanvasStart()
+    {
+        gameOverStuff.SetActive(false);
+        endLevelStuff.SetActive(false);
+        tutorial1.SetActive(false);
     }
 
 
@@ -68,11 +104,12 @@ public class GameManager : MonoBehaviour
     {
         if(gameHasEnded == false)
         {
-            Debug.Log("gameovber");
-            Invoke("GameOverScreen", 2.3f);
-            source.PlayOneShot(deathSound, 0.000001f);
+            //Debug.Log("gameovber");
+            //GameOverScreen();
+            source.Play(0);
             animator.Play("Eddy_Dead");
 
+            Invoke("GameOverScreen", 2.3f);
         }
     }
 
@@ -83,10 +120,12 @@ public class GameManager : MonoBehaviour
             Application.Quit();
         }
 
-        if (gameStart)
+        if (tutorialTime)
         {
-            //StartGameScreen();
-
+            if (Input.GetButtonDown("Jump"))
+            {
+                EndTutorial();
+            }
         }
 
         if (gameHasEnded)
@@ -107,7 +146,11 @@ public class GameManager : MonoBehaviour
             }
         }
 
+        //if (SceneManager.GetActiveScene().name == "Level 1")
+        //    maxCoins = 40;
+
         coinText.text = currentCoins + " /" + maxCoins;
+        coinTextEnd.text = currentCoins + " /" + maxCoins;
 
         xPText.text = " " + xPPoints;
     }

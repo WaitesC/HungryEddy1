@@ -145,11 +145,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isBigCoin: 0
-  smallCoinValue: 10
-  bigCoinValue: 100
+  smallCoinValue: 1
+  bigCoinValue: 10
   smallCoinSound: {fileID: 8300000, guid: 4a8c4ab2a43881a458c48cb19ca7e860, type: 3}
   bigCoinSound: {fileID: 8300000, guid: 1f97300aecc4a444c9ecf5e5f6ac78f1, type: 3}
-  smallCoinParticles: {fileID: 0}
+  smallCoinParticles: {fileID: 3117588670606960132}
   bigCoinParticles: {fileID: 0}
 --- !u!82 &2990683560598495631
 AudioSource:
@@ -448,5 +448,10 @@ GameObject:
 --- !u!4 &2994447033059772652 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4331441797361294, guid: 2a16ccf2b8a7d4b64a6db61ab16a891f, type: 3}
+  m_PrefabInstance: {fileID: 2990683561015797346}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &3117588670606960132 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198981620030308454, guid: 2a16ccf2b8a7d4b64a6db61ab16a891f, type: 3}
   m_PrefabInstance: {fileID: 2990683561015797346}
   m_PrefabAsset: {fileID: 0}

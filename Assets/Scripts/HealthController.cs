@@ -24,9 +24,9 @@ public class HealthController : MonoBehaviour
 
         healthBar = GameObject.Find("Health Bar").GetComponent<HealthBar>();
 
-        currentHealth = maxHealth;
         rb = GetComponent<Rigidbody2D>();
 
+        currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
 
@@ -37,12 +37,16 @@ public class HealthController : MonoBehaviour
 
         healthBar.SetHealth(currentHealth);
 
-        if (currentHealth <= 0) 
+        if (currentHealth <= 0)
         {
             //die
             playerMovement.canMove = false;
-            rb.velocity = new Vector2(0, 0);
+            //rb.velocity = new Vector2(0, 0);
             rb.gravityScale = 0.0f;
+
+            rb.velocity = Vector3.zero;
+
+            rb.constraints = RigidbodyConstraints2D.FreezePosition;
 
             gameManager.GameOver();
         }

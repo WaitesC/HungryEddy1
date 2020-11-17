@@ -116,9 +116,6 @@ public class TongueController : MonoBehaviour
 
         foreach (Collider2D caterpillar in hitCaterpillars)
         {
-
-            caterpillar.GetComponent<CaterpillarUnit>().TakeDamage(100);
-
             healthController.HealthPickup(caterpillar.GetComponent<CaterpillarUnit>().healthUp);
 
             FindObjectOfType<GameManager>().xPPoints += 100;
@@ -126,6 +123,8 @@ public class TongueController : MonoBehaviour
             animator.SetTrigger("HitCaterpillar");
 
             caterpillar.GetComponent<Animator>().SetTrigger("CaterpillarEaten");
+
+            caterpillar.GetComponent<CaterpillarUnit>().TakeDamage(100);
         }
     }
     

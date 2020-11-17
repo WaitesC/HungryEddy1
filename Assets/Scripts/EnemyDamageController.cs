@@ -51,19 +51,29 @@ public class EnemyDamageController : MonoBehaviour
         if (takingDamage)
         {
             healthController.currentHealth -= damage;
+
+            //playerPos.position += dir  * 0.1f;
+
             playerRigidbody.AddForce(dir * thrust, ForceMode2D.Impulse);
 
             //if()
                 
 
         }
+        else
+            healthController.currentHealth -= 0;
     }
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.gameObject.name == "Player" && !source.isPlaying)
+
+
+        if (col.gameObject.name == "Player" && !source.isPlaying)
         {
             takingDamage = true;
+
+            //healthController.currentHealth -= damage;
+
 
             source.PlayOneShot(playerHurtSound, 0.1f);
 
@@ -74,17 +84,16 @@ public class EnemyDamageController : MonoBehaviour
         }
         
     }
-
     
+    void OnTriggerExit2D(Collider2D col)
+    {
+        if(col.gameObject.name == "Player")
+        {
+            takingDamage = false;
 
-    //IEnumerator Flasher()
-    //{
-    //    for (int i = 0; i < 5; i++)
-    //    {
-    //        player.material.color = blue;
-    //        yield return new WaitForSeconds(.1f);
-    //        player.material.color = green;
-    //        yield return new WaitForSeconds(.1f);
-    //    }
-    //}
+            source.Stop();
+        }
+    }
+    
+    
 }

@@ -1929,7 +1929,7 @@ MonoBehaviour:
   quitYesButton: {fileID: 1222872024}
   creditsReturnButton: {fileID: 1093968276}
   volumeReturnButton: {fileID: 1610352921}
-  firstLevel: Draft Level 2
+  firstLevel: Level 1
 --- !u!4 &413021187
 Transform:
   m_ObjectHideFlags: 0

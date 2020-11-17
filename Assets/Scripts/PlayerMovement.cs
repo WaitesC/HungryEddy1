@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        canMove = true;
+        //canMove = true;
 
         //source = GetComponent<AudioSource>();
     }
@@ -59,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("Speed", Mathf.Abs(horMove));
 
-        if (Input.GetButtonDown("Jump") && controller.m_Grounded == true)
+        if (Input.GetButtonDown("Jump") && controller.m_Grounded == true && canMove)
         {
             jump = true;
             animator.SetTrigger("Jump");

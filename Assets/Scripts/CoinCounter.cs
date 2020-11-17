@@ -8,6 +8,8 @@ public class CoinCounter : MonoBehaviour
     AudioSource source;
 
     GameManager gameManager;
+
+    bool pickUp;
     
     public bool isBigCoin;
 
@@ -38,6 +40,25 @@ public class CoinCounter : MonoBehaviour
 
     }
 
+    void FixedUpdate()
+    {
+        if(pickUp)
+        {
+            gameManager.currentCoins += smallCoinValue;
+
+            source.PlayOneShot(smallCoinSound, 0.3f);
+
+            Instantiate(smallCoinParticles, transform.position, Quaternion.identity);
+
+            //Destroy(gameObject);
+            OnPickup();
+
+
+            pickUp = false;
+        }
+
+    }
+
     void OnTriggerEnter2D(Collider2D collider)
     {
         if(isBigCoin == false)
@@ -45,14 +66,7 @@ public class CoinCounter : MonoBehaviour
             //if player picks up small coin
             if (collider.gameObject.tag == "Player")
             {
-                gameManager.currentCoins += smallCoinValue;
-
-                source.PlayOneShot(smallCoinSound, 0.3f);
-
-                Instantiate(smallCoinParticles, transform.position, Quaternion.identity);
-
-                //Destroy(gameObject);
-                OnPickup();
+                pickUp = true;
             }
         }
         
