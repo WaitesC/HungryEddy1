@@ -17,10 +17,18 @@ public class EffectObject : MonoBehaviour
 
     void Start()
     {
+        shakeCamera = false;
+
         //if(shakeCamera)
             //StartCoroutine(Camera.main.GetComponent<CameraShake>().Shake(duration,magnitude));
  
         //Destroy(gameObject, time);
+    }
+
+    void Update()
+    {
+        if (shakeCamera)
+            StartCoroutine(Camera.main.GetComponent<CameraShake>().Shake(duration,magnitude));
     }
 
 

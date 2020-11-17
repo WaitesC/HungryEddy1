@@ -150,6 +150,7 @@ public class GameManager : MonoBehaviour
         //    maxCoins = 40;
 
         coinText.text = currentCoins + " /" + maxCoins;
+        //coinText.text = currentCoins + " ";
         coinTextEnd.text = currentCoins + " /" + maxCoins;
 
         xPText.text = " " + xPPoints;

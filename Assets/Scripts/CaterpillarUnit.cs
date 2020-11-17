@@ -15,10 +15,14 @@ public class CaterpillarUnit : MonoBehaviour
     public AudioSource source;
     public AudioClip eatenSound;
 
+    Rigidbody2D rb;
+
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
+
+        rb = GetComponent<Rigidbody2D>();
 
         animator = GetComponent<Animator>();
     }
@@ -43,6 +47,12 @@ public class CaterpillarUnit : MonoBehaviour
     {
         if (col.gameObject.name == "Spikes")
         {
+            rb.gravityScale = 0.0f;
+
+            rb.velocity = Vector3.zero;
+
+            rb.constraints = RigidbodyConstraints2D.FreezePosition;
+
             //play death animation
             animator.SetTrigger("CaterpillarDie");
 

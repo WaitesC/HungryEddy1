@@ -51,6 +51,8 @@ GameObject:
   - component: {fileID: 4310397984025005310}
   - component: {fileID: 4310397984025005306}
   - component: {fileID: 4310397984025005311}
+  - component: {fileID: 1611366532}
+  - component: {fileID: 1611366533}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -308,6 +310,7 @@ MonoBehaviour:
   rb: {fileID: 4310397984025005300}
   playerMovement: {fileID: 4310397984025005303}
   lookingForVine: 0
+  vineOffset: -17
 --- !u!82 &4310397984025005305
 AudioSource:
   m_ObjectHideFlags: 0
@@ -318,7 +321,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 09dd831f6a0acdd42918d2eb4a2860c4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 33ca4180cd6cd154bac833756624ca73, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.317
   m_Pitch: 1
@@ -460,6 +463,50 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -2.5}
   m_Size: {x: 5.905, y: 7.57}
   m_Direction: 0
+--- !u!68 &1611366532
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4310397984025005298}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 2.3062222, y: -5.8058386}
+  - {x: 2.1588573, y: -5.917778}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!68 &1611366533
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4310397984025005298}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.305165, y: -5.8077707}
+  - {x: -2.1520329, y: -5.91704}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &4310397984089927072
 GameObject:
   m_ObjectHideFlags: 0
