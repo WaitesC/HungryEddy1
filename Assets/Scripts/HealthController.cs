@@ -37,8 +37,9 @@ public class HealthController : MonoBehaviour
 
         healthBar.SetHealth(currentHealth);
 
-        if (currentHealth <= 0)
+        if (currentHealth <= 0 && gameManager.gameHasEnded == false)
         {
+            
             //die
             playerMovement.canMove = false;
             //rb.velocity = new Vector2(0, 0);

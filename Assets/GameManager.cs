@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    bool gameHasEnded = false;
+    public bool gameHasEnded = false;
 
     Animator animator;
 
@@ -20,7 +20,8 @@ public class GameManager : MonoBehaviour
 
     public AudioClip deathSound;
     public AudioClip winSound;
-    public AudioSource source;
+    public AudioSource EndScreenSound;
+    public AudioSource dieSound;
 
     GameObject tutorial1;
 
@@ -44,6 +45,7 @@ public class GameManager : MonoBehaviour
     bool gameStart = true;
     public bool tutorialTime = false;
     public bool levelOver = false;
+    bool hasDied;
 
     void Start()
     {
@@ -104,12 +106,16 @@ public class GameManager : MonoBehaviour
     {
         if(gameHasEnded == false)
         {
-            //Debug.Log("gameovber");
-            //GameOverScreen();
-            source.Play(0);
+            
             animator.Play("Eddy_Dead");
 
+            dieSound.loop = false;
+            dieSound.Play(0);
+
+
             Invoke("GameOverScreen", 2.3f);
+
+            gameHasEnded = true;
         }
     }
 
@@ -125,13 +131,10 @@ public class GameManager : MonoBehaviour
             playerMovement.canMove = false;
 
 
-            if (Input.GetButtonDown("Jump"))
-            {
-                //EndTutorial();
-            }
         }
         else
             playerMovement.canMove = true;
+
         if (gameHasEnded)
         {
             if (Input.GetButtonDown("Jump"))
@@ -175,6 +178,9 @@ public class GameManager : MonoBehaviour
 
         gameUIStuff.SetActive(false);
 
+        EndScreenSound.Play(0);
+
+        animator.Play("Eddy_Dead 0");
 
 
     }
@@ -202,7 +208,7 @@ public class GameManager : MonoBehaviour
 
     public void EndLevel()
     {
-        source.PlayOneShot(winSound, 0.1f);
+        EndScreenSound.PlayOneShot(winSound, 0.1f);
         //rb.velocity = new Vector2(0, 0);
         //rb.gravityScale = 0.0f;
         rb.inertia = 0.0f;
