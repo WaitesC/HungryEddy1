@@ -113,6 +113,8 @@ public class SwingController : MonoBehaviour
         {
             if(lookingForVine)
             {
+                //instantiate tail particle effect swingPosition.position
+
                 Debug.Log("We hit " + vine.name);
 
                 animator.SetTrigger("HitVine");

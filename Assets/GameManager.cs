@@ -46,9 +46,12 @@ public class GameManager : MonoBehaviour
     public bool tutorialTime = false;
     public bool levelOver = false;
     bool hasDied;
+    bool finished;
 
     void Start()
     {
+        hasDied = false;
+        finished = false;
         gameStart = true;
 
         rb = GameObject.Find("Player").GetComponent<Rigidbody2D>();
@@ -208,7 +211,11 @@ public class GameManager : MonoBehaviour
 
     public void EndLevel()
     {
-        EndScreenSound.PlayOneShot(winSound, 0.1f);
+        if(finished == false)
+        {
+            EndScreenSound.PlayOneShot(winSound, 0.1f);
+            finished = true;
+        }
         //rb.velocity = new Vector2(0, 0);
         //rb.gravityScale = 0.0f;
         rb.inertia = 0.0f;
