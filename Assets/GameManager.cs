@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
     public bool falling;
 
     bool gameStart = true;
-    bool tutorialTime = false;
+    public bool tutorialTime = false;
     public bool levelOver = false;
 
     void Start()
@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
 
         animator = GameObject.Find("Player").GetComponent<Animator>();
 
-        tutorial1 = GameObject.Find("Tutorial 1");
+        //tutorial1 = GameObject.Find("Tutorial 1");
         gameUIStuff = GameObject.Find("Game UI stuff");
         gameOverStuff = GameObject.Find("Game Over stuff");
         endLevelStuff = GameObject.Find("End Level stuff");
@@ -63,7 +63,7 @@ public class GameManager : MonoBehaviour
         maxCoins = GameObject.FindGameObjectsWithTag("SmallCoin").Length;
 
         coinText = GameObject.Find("Coin Counter Text").GetComponent<Text>();
-        coinTextEnd = GameObject.Find("Coin Counter Text End").GetComponent<Text>();
+        //coinTextEnd = GameObject.Find("Coin Counter Text End").GetComponent<Text>();
         xPText = GameObject.Find("XP text").GetComponent<Text>();
 
         //maxCoins = coinNum;
@@ -80,7 +80,7 @@ public class GameManager : MonoBehaviour
     {
         playerMovement.canMove = false;
         //gameUIStuff.SetActive(false);
-        tutorial1.SetActive(true);
+        //tutorial1.SetActive(true);
         tutorialTime = true;
     }
 
@@ -96,7 +96,7 @@ public class GameManager : MonoBehaviour
     {
         gameOverStuff.SetActive(false);
         endLevelStuff.SetActive(false);
-        tutorial1.SetActive(false);
+        //tutorial1.SetActive(false);
     }
 
 
@@ -122,12 +122,16 @@ public class GameManager : MonoBehaviour
 
         if (tutorialTime)
         {
+            playerMovement.canMove = false;
+
+
             if (Input.GetButtonDown("Jump"))
             {
-                EndTutorial();
+                //EndTutorial();
             }
         }
-
+        else
+            playerMovement.canMove = true;
         if (gameHasEnded)
         {
             if (Input.GetButtonDown("Jump"))
@@ -151,7 +155,7 @@ public class GameManager : MonoBehaviour
 
         coinText.text = currentCoins + " /" + maxCoins;
         //coinText.text = currentCoins + " ";
-        coinTextEnd.text = currentCoins + " /" + maxCoins;
+        //coinTextEnd.text = currentCoins + " /" + maxCoins;
 
         xPText.text = " " + xPPoints;
     }
