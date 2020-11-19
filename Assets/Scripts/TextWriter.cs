@@ -5,18 +5,37 @@ using UnityEngine.UI;
 
 public class TextWriter : MonoBehaviour
 {
-    private TextWriterSingle textWriterSingle;
+    private static TextWriter instance;
 
-  public void AddWriter(Text uiText, string textToWrite, float timePerCharacter, bool invisibleCharacters)
+    
+    private List<TextWriterSingle> textWriterSingleList;
+
+    private void Awake()
     {
-        textWriterSingle = new TextWriterSingle(uiText, textToWrite, timePerCharacter, invisibleCharacters);
+        instance = this;
+        textWriterSingleList = new List<TextWriterSingle>();
     }
 
-    public void Update()
+    public static void AddWriter_Static(Text uiText, string textToWrite, float timePerCharacter, bool invisibleCharacters)
     {
-        if (textWriterSingle != null)
+        instance.AddWriter(uiText, textToWrite, timePerCharacter, invisibleCharacters);
+    }
+    private void AddWriter(Text uiText, string textToWrite, float timePerCharacter, bool invisibleCharacters)
+    {
+        textWriterSingleList.Add(new TextWriterSingle(uiText, textToWrite, timePerCharacter, invisibleCharacters));
+    }
+
+    private void Update()
+    {
+        Debug.Log(textWriterSingleList.Count);
+        for (int i=0; i<textWriterSingleList.Count; i++)
         {
-            textWriterSingle.Update();
+            bool destroyInstance = textWriterSingleList[i].Update();
+            if (destroyInstance)
+            {
+                textWriterSingleList.RemoveAt(i);
+                i--;
+            }
         }
     }
 
@@ -39,14 +58,12 @@ public class TextWriter : MonoBehaviour
             characterIndex = 0;
         }
         
-        
-        public void Update()
+        // Returns true on complete
+        public bool Update()
         {
-            if (uiText != null)
+            timer -= Time.deltaTime;
+            while (timer <= 0f)
             {
-                timer -= Time.deltaTime;
-                while (timer <= 0f)
-                {
                     // Display next character
                     timer += timePerCharacter;
                     characterIndex++;
@@ -60,12 +77,12 @@ public class TextWriter : MonoBehaviour
                     if (characterIndex >= textToWrite.Length)
                     {
                         // Entire string displayed
-                        uiText = null;
-                        return;
+                        return true;
                     }
-                }
             }
 
+            return false;
+            
         }
     }
 }

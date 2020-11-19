@@ -5,7 +5,11 @@ using UnityEngine.UI;
 
 public class UIBubbleText : MonoBehaviour
 {
-    [SerializeField] private TextWriter textWriter;
+    public float speedTextWritter;
+    public AudioClip typingSound;
+    public string message;
+
+
     private Text messageText;
     private void Awake()
     {
@@ -14,8 +18,7 @@ public class UIBubbleText : MonoBehaviour
     }
     private void Start() 
     {
-        //textWriter.AddWriter(messageText, "Hello World", 1f);
-        textWriter.AddWriter(messageText, "Hello, I'm Eddy", 1f, true);
+        TextWriter.AddWriter_Static(messageText, message, 0.15f, true);
     }
 
 }
