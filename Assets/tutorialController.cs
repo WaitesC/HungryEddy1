@@ -53,7 +53,7 @@ public class tutorialController : MonoBehaviour
 
             }
             
-            if (Input.GetAxisRaw("Horizontal") < 0 && currentPageNum > 1)
+            if (Input.GetAxisRaw("Horizontal") < 0 && currentPageNum > 0)
             {
                 if (pressedButtonDown == false)
                 {

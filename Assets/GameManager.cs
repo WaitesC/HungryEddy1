@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour
         maxCoins = GameObject.FindGameObjectsWithTag("SmallCoin").Length;
 
         coinText = GameObject.Find("Coin Counter Text").GetComponent<Text>();
-        //coinTextEnd = GameObject.Find("Coin Counter Text End").GetComponent<Text>();
+        coinTextEnd = GameObject.Find("Coin Counter Text End").GetComponent<Text>();
         xPText = GameObject.Find("XP text").GetComponent<Text>();
 
         //maxCoins = coinNum;
@@ -159,9 +159,10 @@ public class GameManager : MonoBehaviour
         //if (SceneManager.GetActiveScene().name == "Level 1")
         //    maxCoins = 40;
 
-        coinText.text = currentCoins + " /" + maxCoins;
-        //coinText.text = currentCoins + " ";
+        //coinText.text = currentCoins + " /" + maxCoins;
+        coinText.text = currentCoins + " ";
         //coinTextEnd.text = currentCoins + " /" + maxCoins;
+        coinTextEnd.text = currentCoins + " ";
 
         xPText.text = " " + xPPoints;
     }
