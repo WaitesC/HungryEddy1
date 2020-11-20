@@ -13,6 +13,8 @@ public class EnemyDamageController : MonoBehaviour
 
     GameObject player;
 
+    GameManager gameManager;
+
     AudioSource source;
     //sounds
     public AudioClip playerHurtSound;
@@ -41,6 +43,9 @@ public class EnemyDamageController : MonoBehaviour
         healthController = GameObject.Find("Player").GetComponent<HealthController>();
 
         player = GameObject.Find("Player");
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+
+        player.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1);
     }
 
     // Update is called once per frame
@@ -55,13 +60,23 @@ public class EnemyDamageController : MonoBehaviour
             //playerPos.position += dir  * 0.1f;
 
             playerRigidbody.AddForce(dir * thrust, ForceMode2D.Impulse);
-
-            //if()
-                
+            
+            if(gameManager.okToFlash == true)
+                player.GetComponent<SpriteRenderer>().color = new Color(2, 0, 0);
 
         }
         else
+        {
+            Invoke("NormalColour", 5.0f);
             healthController.currentHealth -= 0;
+
+        }
+    }
+
+    void NormalColour()
+    {
+        player.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1);
+
     }
 
     void OnTriggerEnter2D(Collider2D col)

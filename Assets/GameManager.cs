@@ -41,6 +41,7 @@ public class GameManager : MonoBehaviour
     public int xPPoints;
 
     public bool falling;
+    public bool okToFlash;
 
     bool gameStart = true;
     public bool tutorialTime = false;
@@ -48,11 +49,15 @@ public class GameManager : MonoBehaviour
     bool hasDied;
     bool finished;
 
+    bool onEndLevelScreen;
+
     void Start()
     {
         hasDied = false;
         finished = false;
         gameStart = true;
+        onEndLevelScreen = false;
+        okToFlash = true;
 
         rb = GameObject.Find("Player").GetComponent<Rigidbody2D>();
 
@@ -124,6 +129,16 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        if(onEndLevelScreen)
+        {
+            if (Input.GetButtonDown("Pause"))
+                SceneManager.LoadScene("Main Menu");
+
+            if (Input.GetButtonDown("Jump"))
+                Restart();
+
+        }
+
         if (Input.GetKey("escape"))
         {
             Application.Quit();
@@ -141,19 +156,18 @@ public class GameManager : MonoBehaviour
         if (gameHasEnded)
         {
             if (Input.GetButtonDown("Jump"))
-            {
                 Restart();
-            }
+            
+
+            if (Input.GetButtonDown("Pause"))
+                SceneManager.LoadScene("Main Menu");
         }
 
         if(levelOver)
         {
             EndLevel();
 
-            if (Input.GetButtonDown("Jump"))
-            {
-                Restart();
-            }
+            
         }
 
         //if (SceneManager.GetActiveScene().name == "Level 1")
@@ -234,6 +248,9 @@ public class GameManager : MonoBehaviour
     {
         endLevelStuff.SetActive(true);
 
+        onEndLevelScreen = true;
+
+        
     }
 
 }

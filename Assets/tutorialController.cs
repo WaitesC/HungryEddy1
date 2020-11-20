@@ -12,6 +12,9 @@ public class tutorialController : MonoBehaviour
 
     bool pressedButtonDown = false;
 
+    Transform childTransform;
+    GameObject childGameObject;
+
     void Start()
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
@@ -46,9 +49,18 @@ public class tutorialController : MonoBehaviour
             {
                 if(pressedButtonDown == false)
                 {
+
                     currentPageNum += 1;
 
                     pressedButtonDown = true;
+                    //childGameObject = tutorialPages[currentPageNum].transform.GetChild(6).gameObject;
+                    tutorialPages[currentPageNum].transform.GetChild(0).gameObject.GetComponent<UIBubbleText>().DoTextStuff();
+                    //tutorialPages[currentPageNum].transform.GetChild(0).gameObject.GetComponent<UIBubbleText>().speedTextWritter = 0.1f;
+
+                    //tutorialPages[currentPageNum].transform.Find("UIBubble").GetComponent<UIBubbleText>().DoTextStuff();
+
+                    //tutorialPages[currentPageNum].GetChild(6).GetComponent<UIBubbleText>().DoTextStuff();
+
                 }
 
             }
@@ -58,6 +70,8 @@ public class tutorialController : MonoBehaviour
                 if (pressedButtonDown == false)
                 {
                     currentPageNum -= 1;
+
+                    //tutorialPages[currentPageNum].GetChild(6).DoTextStuff();
 
                     pressedButtonDown = true;
                 }

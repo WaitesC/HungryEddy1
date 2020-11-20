@@ -13,14 +13,24 @@ public class UIBubbleText : MonoBehaviour
     private Text messageText;
     private void Awake()
     {
-        
-        //Application.targetFrameRate = 3;
-    }
-    private void Start() 
-    {
         messageText = transform.Find("message").Find("messageText").GetComponent<Text>();
 
-        TextWriter.AddWriter_Static(messageText, message, 0.15f, true);
+        //Application.targetFrameRate = 3;
+    }
+    private void Start()
+    {
+        DoTextStuff();
+    }
+
+    void OnEnable()
+    {
+        TextWriter.AddWriter_Static(messageText, message, speedTextWritter, true);
+
+    }
+
+    public void DoTextStuff()
+    {
+
     }
 
 }

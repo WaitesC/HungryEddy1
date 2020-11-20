@@ -39,7 +39,7 @@ public class HealthController : MonoBehaviour
 
         if (currentHealth <= 0 && gameManager.gameHasEnded == false)
         {
-            
+            gameManager.okToFlash = false;
             //die
             playerMovement.canMove = false;
             //rb.velocity = new Vector2(0, 0);
