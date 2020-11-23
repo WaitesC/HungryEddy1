@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class Testing : MonoBehaviour
 {
-    [SerializeField] private Transform ScorePopUp;
-    
     private void Start()
     {
-        Instantiate(ScorePopup, Vector3.zero, Quaternion.identity);
+        ScorePopUp.Create(Vector3.zero, 300);
     }
 
 
 }
+
