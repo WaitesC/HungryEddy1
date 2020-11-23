@@ -6,9 +6,16 @@ public class Testing : MonoBehaviour
 {
     private void Start()
     {
-        ScorePopUp.Create(Vector3.zero, 300);
+        //ScorePopUp.Create(Vector3.zero, 300);
     }
 
+    /*private void Update ()
+    {
+        if (Input.GetController)
+        {
+            ScorePopUp.Create
+        }
+    }*/
 
 }
 

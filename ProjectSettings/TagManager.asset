@@ -55,3 +55,6 @@ TagManager:
   - name: Enemies
     uniqueID: 4265223013
     locked: 0
+  - name: Score pop up
+    uniqueID: 3350773925
+    locked: 0

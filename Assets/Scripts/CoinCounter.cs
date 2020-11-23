@@ -50,6 +50,8 @@ public class CoinCounter : MonoBehaviour
 
             Instantiate(smallCoinParticles, transform.position, Quaternion.identity);
 
+            //ScorePopUp.Create(coins.GetPosition(), smallCoinValue);
+
             //Destroy(gameObject);
             OnPickup();
 
