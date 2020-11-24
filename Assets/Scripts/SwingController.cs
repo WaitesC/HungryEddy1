@@ -23,9 +23,12 @@ public class SwingController : MonoBehaviour
     public PlayerMovement playerMovement;
 
     bool swinging;
+
     public bool lookingForVine;
 
     public float vineOffset;
+
+    public ParticleSystem vineParticles;
 
 
     // Start is called before the first frame update
@@ -126,7 +129,7 @@ public class SwingController : MonoBehaviour
         {
             if(lookingForVine)
             {
-                //instantiate tail particle effect swingPosition.position
+                Instantiate(vineParticles, swingPosition.position, Quaternion.identity);
 
                 Debug.Log("We hit " + vine.name);
 
