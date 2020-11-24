@@ -12,16 +12,22 @@ public class GameManager : MonoBehaviour
 
     Animator animator;
 
+    //TextWriter textWriter;
+    //public TextWriterSingle textWriterSingle;
+
+
     Text coinText;
     Text coinTextEnd;
     Text xPText;
 
     int coinNum;
 
+    //public AudioClip typingSound;
     public AudioClip deathSound;
     public AudioClip winSound;
     public AudioSource EndScreenSound;
     public AudioSource dieSound;
+    //public AudioSource typingSound;
 
     GameObject tutorial1;
 
@@ -42,6 +48,7 @@ public class GameManager : MonoBehaviour
 
     public bool falling;
     public bool okToFlash;
+    public static bool typing;
 
     bool gameStart = true;
     public bool tutorialTime = false;
@@ -53,6 +60,9 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        //textWriter = GameObject.FindObjectOfType<TextWriter>();
+        //textWriterSingle = GameObject.FindObjectOfType<TextWriter>();
+        typing = false;
         hasDied = false;
         finished = false;
         gameStart = true;
@@ -129,7 +139,10 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        if(onEndLevelScreen)
+        //if (textWriterSingle.typing)
+        //    Debug.Log("f");
+
+        if (onEndLevelScreen)
         {
             if (Input.GetButtonDown("Pause"))
                 SceneManager.LoadScene("Main Menu");
@@ -174,8 +187,10 @@ public class GameManager : MonoBehaviour
         //    maxCoins = 40;
 
         //coinText.text = currentCoins + " /" + maxCoins;
-        coinText.text = currentCoins + " ";
         //coinTextEnd.text = currentCoins + " /" + maxCoins;
+
+
+        coinText.text = currentCoins + " ";
         coinTextEnd.text = currentCoins + " ";
 
         xPText.text = " " + xPPoints;
@@ -184,6 +199,17 @@ public class GameManager : MonoBehaviour
     void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    void MakeScoreBig()
+    {
+        //run score animation
+
+        //if(coinPickupBool)
+            //make score change size
+
+        //coinPickupBool = false;
+
     }
 
     void GameOverScreen()

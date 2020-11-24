@@ -36,12 +36,14 @@ public class TongueController : MonoBehaviour
     public AudioSource source;
     public AudioClip tongueSound;
 
-
+    Animator xPTextAnimator;
 
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        xPTextAnimator = GameObject.Find("XP text").GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -118,7 +120,9 @@ public class TongueController : MonoBehaviour
         {
             healthController.HealthPickup(caterpillar.GetComponent<CaterpillarUnit>().healthUp);
 
-            FindObjectOfType<GameManager>().xPPoints += 100;
+            FindObjectOfType<GameManager>().xPPoints += caterpillar.GetComponent<CaterpillarUnit>().xP;
+
+            xPTextAnimator.Play("XP_Pickup");
 
             animator.SetTrigger("HitCaterpillar");
 

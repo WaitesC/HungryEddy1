@@ -49,8 +49,8 @@ public class SwingController : MonoBehaviour
 
             //playerMovement.canMove = false;
 
-
-            animator.SetTrigger("SwingAttack");
+            if(!swinging)
+                animator.SetTrigger("SwingAttack");
 
 
         }
@@ -91,6 +91,19 @@ public class SwingController : MonoBehaviour
                 playerMovement.JumpFunction();
                 //set animation jump trigger
                 animator.SetTrigger("Jump");
+            }
+            
+            if (Input.GetButtonDown("Swing"))
+            {
+                animator.Play("Eddy_Idle");
+                //playerMovement.jump = true;
+                rb.constraints = RigidbodyConstraints2D.None;
+                rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+
+                //no longer swining
+                swinging = false;
+                //player can move again
+                playerMovement.canMove = true;
             }
         }
 

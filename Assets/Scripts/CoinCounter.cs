@@ -16,6 +16,8 @@ public class CoinCounter : MonoBehaviour
     public int smallCoinValue;
     public int bigCoinValue;
 
+    //public int xPValue;
+
     public AudioClip smallCoinSound;
     public AudioClip bigCoinSound;
 
@@ -24,6 +26,9 @@ public class CoinCounter : MonoBehaviour
 
     SpriteRenderer spriteRenderer;
     BoxCollider2D boxCollider2D;
+
+    Animator animator;
+    Animator scoreTextAnimator;
 
     void Start()
     {
@@ -37,6 +42,9 @@ public class CoinCounter : MonoBehaviour
 
         boxCollider2D = gameObject.GetComponent<BoxCollider2D>();
 
+        animator = GetComponent<Animator>();
+
+        scoreTextAnimator = GameObject.Find("Coin Counter Text").GetComponent<Animator>();
 
     }
 
@@ -44,6 +52,13 @@ public class CoinCounter : MonoBehaviour
     {
         if(pickUp)
         {
+            animator.Play("Coin_Pickup_Score");
+            scoreTextAnimator.Play("Score_Idle");
+            scoreTextAnimator.Play("Score_Pickup");
+            OnPickup();
+
+            //gameManager.xPPoints += xPValue;
+
             gameManager.currentCoins += smallCoinValue;
 
             source.PlayOneShot(smallCoinSound, 0.3f);
@@ -51,9 +66,11 @@ public class CoinCounter : MonoBehaviour
             Instantiate(smallCoinParticles, transform.position, Quaternion.identity);
 
             //ScorePopUp.Create(coins.GetPosition(), smallCoinValue);
+            //ScorePopUp.Create(transform.position, smallCoinValue);
+
+
 
             //Destroy(gameObject);
-            OnPickup();
 
 
             pickUp = false;
@@ -92,6 +109,7 @@ public class CoinCounter : MonoBehaviour
 
     void OnPickup()
     {
+        //gamemanager.coinPickupBool = true;
         spriteRenderer.enabled = false;
         boxCollider2D.enabled = false;
 

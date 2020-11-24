@@ -7,13 +7,20 @@ public class TextWriter : MonoBehaviour
 {
     private static TextWriter instance;
 
-    
+    //private static GameManager gameManager;
+
+
+
     private List<TextWriterSingle> textWriterSingleList;
+
+    public static bool typing_;
 
     private void Awake()
     {
         instance = this;
         textWriterSingleList = new List<TextWriterSingle>();
+
+        //gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     public static void AddWriter_Static(Text uiText, string textToWrite, float timePerCharacter, bool invisibleCharacters)
@@ -27,6 +34,8 @@ public class TextWriter : MonoBehaviour
 
     private void Update()
     {
+        
+
         Debug.Log(textWriterSingleList.Count);
         for (int i=0; i<textWriterSingleList.Count; i++)
         {
@@ -49,6 +58,10 @@ public class TextWriter : MonoBehaviour
         private float timer;
         private bool invisibleCharacters;
 
+        public bool typing;
+
+        
+
         public TextWriterSingle(Text uiText, string textToWrite, float timePerCharacter, bool invisibleCharacters)
         {
             this.uiText = uiText;
@@ -61,9 +74,13 @@ public class TextWriter : MonoBehaviour
         // Returns true on complete
         public bool Update()
         {
+            if (typing)
+                typing_ = true;
             timer -= Time.deltaTime;
             while (timer <= 0f)
             {
+                //gameManager.typing = true;
+                typing = true;
                     // Display next character
                     timer += timePerCharacter;
                     characterIndex++;
@@ -76,8 +93,9 @@ public class TextWriter : MonoBehaviour
 
                     if (characterIndex >= textToWrite.Length)
                     {
-                        // Entire string displayed
-                        return true;
+                    // Entire string displayed
+                    //gameManager.typing = false;
+                    return true;
                     }
             }
 
