@@ -371,8 +371,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHurtSound: {fileID: 8300000, guid: 4f5cdabbcc4e3e84488f417919861a60, type: 3}
-  damage: 100
-  thrust: 5
+  damage: 3
+  thrust: 3
 --- !u!61 &3446388291384579836
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -427,7 +427,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.072
   m_Pitch: 1
   Loop: 0
   Mute: 0

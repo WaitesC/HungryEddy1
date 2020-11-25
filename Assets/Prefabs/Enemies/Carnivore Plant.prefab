@@ -196,7 +196,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1856827533772553850}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 146.23, y: 154.2, z: 50.234467}
   m_LocalScale: {x: 0.95, y: 0.95, z: 0.95}
   m_Children:
@@ -287,7 +287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHurtSound: {fileID: 8300000, guid: 4f5cdabbcc4e3e84488f417919861a60, type: 3}
-  damage: 5
+  damage: 3
   thrust: 1
 --- !u!82 &1856827533772553855
 AudioSource:

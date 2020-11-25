@@ -9267,18 +9267,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1123905724}
     m_Modifications:
-    - target: {fileID: 1084449466, guid: 261d6149f5c71f5418dbefcc44c93677, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1084449466, guid: 261d6149f5c71f5418dbefcc44c93677, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1084449466, guid: 261d6149f5c71f5418dbefcc44c93677, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 719523373418224313, guid: 261d6149f5c71f5418dbefcc44c93677, type: 3}
       propertyPath: m_Name
       value: Rotating Blade (1)
@@ -9326,14 +9314,6 @@ PrefabInstance:
     - target: {fileID: 719523373418224314, guid: 261d6149f5c71f5418dbefcc44c93677, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 719523373418224315, guid: 261d6149f5c71f5418dbefcc44c93677, type: 3}
-      propertyPath: thrust
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 719523373418224315, guid: 261d6149f5c71f5418dbefcc44c93677, type: 3}
-      propertyPath: damage
-      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 261d6149f5c71f5418dbefcc44c93677, type: 3}
@@ -23028,6 +23008,10 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2583708905233531938, guid: fe2bdedd2c29a1b45b14814e3e4b809f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8520088129411613173, guid: fe2bdedd2c29a1b45b14814e3e4b809f, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -27867,22 +27851,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4310397984025005298, guid: 48d75685658832846a371bf3e3045b33, type: 3}
   m_PrefabInstance: {fileID: 1557201707}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1611366524 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4310397984025005307, guid: 48d75685658832846a371bf3e3045b33, type: 3}
-  m_PrefabInstance: {fileID: 1557201707}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1611366518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 893f4bf56870cc7418a8dbba887e6370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!50 &1611366526 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 4310397984025005300, guid: 48d75685658832846a371bf3e3045b33, type: 3}
-  m_PrefabInstance: {fileID: 1557201707}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1611366531 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4310397984025005299, guid: 48d75685658832846a371bf3e3045b33, type: 3}
@@ -30353,53 +30321,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1106493025}
     m_Modifications:
-    - target: {fileID: 3869807813233827744, guid: 78766c3f5e4f25c40b1fe7e0ea21cd15, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4170221441434010368, guid: 78766c3f5e4f25c40b1fe7e0ea21cd15, type: 3}
-      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4283990418783401297, guid: 78766c3f5e4f25c40b1fe7e0ea21cd15, type: 3}
-      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4283990418783401297, guid: 78766c3f5e4f25c40b1fe7e0ea21cd15, type: 3}
-      propertyPath: m_Volume
-      value: 0.072
-      objectReference: {fileID: 0}
     - target: {fileID: 6184764095365820437, guid: 78766c3f5e4f25c40b1fe7e0ea21cd15, type: 3}
       propertyPath: m_Name
       value: Spikes
-      objectReference: {fileID: 0}
-    - target: {fileID: 6184764095365820521, guid: 78766c3f5e4f25c40b1fe7e0ea21cd15, type: 3}
-      propertyPath: healthController
-      value: 
-      objectReference: {fileID: 1611366524}
-    - target: {fileID: 6184764095365820521, guid: 78766c3f5e4f25c40b1fe7e0ea21cd15, type: 3}
-      propertyPath: playerRigidbody
-      value: 
-      objectReference: {fileID: 1611366526}
-    - target: {fileID: 6184764095365820521, guid: 78766c3f5e4f25c40b1fe7e0ea21cd15, type: 3}
-      propertyPath: playerPos
-      value: 
-      objectReference: {fileID: 1611366531}
-    - target: {fileID: 6184764095365820521, guid: 78766c3f5e4f25c40b1fe7e0ea21cd15, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1611366518}
-    - target: {fileID: 6184764095365820521, guid: 78766c3f5e4f25c40b1fe7e0ea21cd15, type: 3}
-      propertyPath: playerHurtSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 4f5cdabbcc4e3e84488f417919861a60, type: 3}
-    - target: {fileID: 6184764095365820521, guid: 78766c3f5e4f25c40b1fe7e0ea21cd15, type: 3}
-      propertyPath: thrust
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6184764095365820521, guid: 78766c3f5e4f25c40b1fe7e0ea21cd15, type: 3}
-      propertyPath: damage
-      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6184764095365820522, guid: 78766c3f5e4f25c40b1fe7e0ea21cd15, type: 3}
       propertyPath: m_LocalPosition.x
