@@ -9,6 +9,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public bool gameHasEnded = false;
+    public bool inGame;
+    public bool paused;
 
     Animator animator;
 
@@ -142,6 +144,13 @@ public class GameManager : MonoBehaviour
         //if (textWriterSingle.typing)
         //    Debug.Log("f");
 
+        if(paused)
+        {
+            Time.timeScale = 0;
+        }
+        else
+            Time.timeScale = 1;
+
         if (onEndLevelScreen)
         {
             if (Input.GetButtonDown("Pause"))
@@ -164,7 +173,10 @@ public class GameManager : MonoBehaviour
 
         }
         else
+        {
             playerMovement.canMove = true;
+            inGame = true;
+        }
 
         if (gameHasEnded)
         {

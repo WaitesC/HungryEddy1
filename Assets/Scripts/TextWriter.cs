@@ -36,7 +36,7 @@ public class TextWriter : MonoBehaviour
     {
         
 
-        Debug.Log(textWriterSingleList.Count);
+        //Debug.Log(textWriterSingleList.Count);
         for (int i=0; i<textWriterSingleList.Count; i++)
         {
             bool destroyInstance = textWriterSingleList[i].Update();

@@ -27,6 +27,8 @@ public class SwingController : MonoBehaviour
     public bool lookingForVine;
 
     public float vineOffset;
+    public float vineOffsetY;
+    public float vineOffsetX;
 
     public ParticleSystem vineParticles;
 
@@ -129,7 +131,8 @@ public class SwingController : MonoBehaviour
         {
             if(lookingForVine)
             {
-                Instantiate(vineParticles, swingPosition.position, Quaternion.identity);
+                //Instantiate(vineParticles, swingPosition.position, Quaternion.identity);
+                Instantiate(vineParticles, new Vector3(transform.position.x + vineOffsetX, vine.gameObject.transform.position.y, 0), Quaternion.identity);
 
                 Debug.Log("We hit " + vine.name);
 
@@ -141,7 +144,7 @@ public class SwingController : MonoBehaviour
 
                 swinging = true;
 
-                gameObject.transform.position = new Vector3 ( transform.position.x, vine.gameObject.transform.position.y + vineOffset, 0);
+                gameObject.transform.position = new Vector3 ( transform.position.x, vine.gameObject.transform.position.y + vineOffsetY, 0);
             }
             
 

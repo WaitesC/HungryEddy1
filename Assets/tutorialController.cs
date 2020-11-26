@@ -32,7 +32,7 @@ public class tutorialController : MonoBehaviour
     void Update()
     {
         tutorialPages[currentPageNum].SetActive(true);
-        if (currentPageNum != 8)
+        if (currentPageNum != tutorialPages.Count - 1)
             tutorialPages[currentPageNum + 1].SetActive(false);
         if (currentPageNum != 0)
             tutorialPages[currentPageNum - 1].SetActive(false);
@@ -45,7 +45,7 @@ public class tutorialController : MonoBehaviour
 
         if (gameManager.tutorialTime)
         {
-            if (Input.GetAxisRaw("Horizontal") > 0 && currentPageNum <8)
+            if (Input.GetAxisRaw("Horizontal") > 0 && currentPageNum < tutorialPages.Count-1)
             {
                 if(pressedButtonDown == false)
                 {
@@ -84,7 +84,7 @@ public class tutorialController : MonoBehaviour
 
 
 
-            if (currentPageNum == 8 && Input.GetAxisRaw("Horizontal") > 0)
+            if (currentPageNum == tutorialPages.Count-1 && Input.GetAxisRaw("Horizontal") > 0) 
             {
 
                 if (pressedButtonDown == false)
