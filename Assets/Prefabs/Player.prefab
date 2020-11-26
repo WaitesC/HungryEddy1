@@ -316,6 +316,8 @@ MonoBehaviour:
   playerMovement: {fileID: 4310397984025005303}
   lookingForVine: 0
   vineOffset: -17
+  vineOffsetY: 0
+  vineOffsetX: 0
   vineParticles: {fileID: 2306406387574583848}
 --- !u!82 &4310397984025005305
 AudioSource:
@@ -11042,22 +11044,6 @@ PrefabInstance:
     - target: {fileID: 4249359944124282, guid: b93ae51944652f940af6dc61461f7425, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198221453913853704, guid: b93ae51944652f940af6dc61461f7425, type: 3}
-      propertyPath: ShapeModule.m_Position.x
-      value: -5
-      objectReference: {fileID: 0}
-    - target: {fileID: 198221453913853704, guid: b93ae51944652f940af6dc61461f7425, type: 3}
-      propertyPath: ShapeModule.m_Position.y
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 199918003474289206, guid: b93ae51944652f940af6dc61461f7425, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -214416897
-      objectReference: {fileID: 0}
-    - target: {fileID: 199918003474289206, guid: b93ae51944652f940af6dc61461f7425, type: 3}
-      propertyPath: m_SortingLayer
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b93ae51944652f940af6dc61461f7425, type: 3}
