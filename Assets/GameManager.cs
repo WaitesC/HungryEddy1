@@ -60,8 +60,11 @@ public class GameManager : MonoBehaviour
 
     bool onEndLevelScreen;
 
+    public bool canIdle;
+
     void Start()
     {
+        canIdle = true;
         //textWriter = GameObject.FindObjectOfType<TextWriter>();
         //textWriterSingle = GameObject.FindObjectOfType<TextWriter>();
         typing = false;

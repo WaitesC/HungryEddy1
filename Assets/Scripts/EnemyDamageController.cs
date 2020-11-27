@@ -13,6 +13,8 @@ public class EnemyDamageController : MonoBehaviour
 
     GameObject player;
 
+    Animator playerHealthBarAnim;
+
     GameManager gameManager;
 
     AudioSource source;
@@ -43,6 +45,7 @@ public class EnemyDamageController : MonoBehaviour
         healthController = GameObject.Find("Player").GetComponent<HealthController>();
 
         player = GameObject.Find("Player");
+        playerHealthBarAnim = GameObject.Find("Health Bar").GetComponent<Animator>();
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
 
         player.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1);
@@ -64,12 +67,14 @@ public class EnemyDamageController : MonoBehaviour
             if(gameManager.okToFlash == true)
                 player.GetComponent<SpriteRenderer>().color = new Color(2, 0, 0);
 
+            playerHealthBarAnim.Play("HealthBar_Damage");
+
         }
         else
         {
             Invoke("NormalColour", 5.0f);
             healthController.currentHealth -= 0;
-
+            //playerHealthBarAnim.Play("HealthBar_Idle");
         }
     }
 

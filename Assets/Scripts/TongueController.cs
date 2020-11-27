@@ -8,6 +8,7 @@ public class TongueController : MonoBehaviour
 
     public CharacterController2D controller;
 
+    Animator playerHealthBarAnim;
 
     public Transform player;
     public Transform wallPosition;
@@ -44,6 +45,9 @@ public class TongueController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         xPTextAnimator = GameObject.Find("XP text").GetComponent<Animator>();
+
+        playerHealthBarAnim = GameObject.Find("Health Bar").GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -125,6 +129,8 @@ public class TongueController : MonoBehaviour
             xPTextAnimator.Play("XP_Pickup");
 
             animator.SetTrigger("HitCaterpillar");
+
+            playerHealthBarAnim.Play("HealthBar_Heal");
 
             caterpillar.GetComponent<Animator>().SetTrigger("CaterpillarEaten");
 
