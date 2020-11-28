@@ -8,6 +8,8 @@ public class tutorialController : MonoBehaviour
 
     public List<GameObject> tutorialPages;
 
+    GameObject tutorialInbetweenPage;
+
     int currentPageNum, totalPageNum;
 
     bool pressedButtonDown = false;
@@ -18,6 +20,7 @@ public class tutorialController : MonoBehaviour
     void Start()
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        tutorialInbetweenPage = GameObject.Find("Tutorial InbetweenPage");
 
         totalPageNum = tutorialPages.Count;
         currentPageNum = 0;
@@ -26,6 +29,7 @@ public class tutorialController : MonoBehaviour
             tutorialPage.SetActive(false);
 
         tutorialPages[currentPageNum].SetActive(true);
+        tutorialInbetweenPage.SetActive(false);
 
     }
 
@@ -45,36 +49,44 @@ public class tutorialController : MonoBehaviour
 
         if (gameManager.tutorialTime)
         {
-            if (Input.GetAxisRaw("Horizontal") > 0 && currentPageNum < tutorialPages.Count-1)
+            if (Input.GetAxisRaw("Horizontal") > 0 || Input.GetButtonDown("Jump"))
             {
-                if(pressedButtonDown == false)
+                if(currentPageNum < tutorialPages.Count - 1)
                 {
+                    if(pressedButtonDown == false)
+                    {
+                        tutorialInbetweenPage.SetActive(false);
+                        currentPageNum += 1;
 
-                    currentPageNum += 1;
+                        pressedButtonDown = true;
+                        //childGameObject = tutorialPages[currentPageNum].transform.GetChild(6).gameObject;
+                        tutorialPages[currentPageNum].transform.GetChild(0).gameObject.GetComponent<UIBubbleText>().DoTextStuff();
+                        //tutorialPages[currentPageNum].transform.GetChild(0).gameObject.GetComponent<UIBubbleText>().speedTextWritter = 0.1f;
 
-                    pressedButtonDown = true;
-                    //childGameObject = tutorialPages[currentPageNum].transform.GetChild(6).gameObject;
-                    tutorialPages[currentPageNum].transform.GetChild(0).gameObject.GetComponent<UIBubbleText>().DoTextStuff();
-                    //tutorialPages[currentPageNum].transform.GetChild(0).gameObject.GetComponent<UIBubbleText>().speedTextWritter = 0.1f;
+                        //tutorialPages[currentPageNum].transform.Find("UIBubble").GetComponent<UIBubbleText>().DoTextStuff();
 
-                    //tutorialPages[currentPageNum].transform.Find("UIBubble").GetComponent<UIBubbleText>().DoTextStuff();
+                        //tutorialPages[currentPageNum].GetChild(6).GetComponent<UIBubbleText>().DoTextStuff();
 
-                    //tutorialPages[currentPageNum].GetChild(6).GetComponent<UIBubbleText>().DoTextStuff();
-
+                    }
                 }
-
             }
             
-            if (Input.GetAxisRaw("Horizontal") < 0 && currentPageNum > 0)
+            if (Input.GetAxisRaw("Horizontal") < 0 || Input.GetButtonDown("Tongue"))
             {
-                if (pressedButtonDown == false)
+                if(currentPageNum > 0)
                 {
-                    currentPageNum -= 1;
+                    if (pressedButtonDown == false)
+                    {
+                        currentPageNum -= 1;
 
-                    //tutorialPages[currentPageNum].GetChild(6).DoTextStuff();
+                        //tutorialPages[currentPageNum].GetChild(6).DoTextStuff();
 
-                    pressedButtonDown = true;
+                        pressedButtonDown = true;
+                        tutorialInbetweenPage.SetActive(false);
+
+                    }
                 }
+                
             }
 
             if (Input.GetAxisRaw("Horizontal") == 0)

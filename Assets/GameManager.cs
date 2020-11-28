@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
 
     Text coinText;
     Text coinTextEnd;
+    Text coinTextGameOver;
     Text xPText;
 
     int coinNum;
@@ -58,7 +59,7 @@ public class GameManager : MonoBehaviour
     bool hasDied;
     bool finished;
 
-    bool onEndLevelScreen;
+    public bool onEndLevelScreen;
 
     public bool canIdle;
 
@@ -89,6 +90,7 @@ public class GameManager : MonoBehaviour
 
         coinText = GameObject.Find("Coin Counter Text").GetComponent<Text>();
         coinTextEnd = GameObject.Find("Coin Counter Text End").GetComponent<Text>();
+        coinTextGameOver = GameObject.Find("Coin Counter Text End (1)").GetComponent<Text>();
         xPText = GameObject.Find("XP text").GetComponent<Text>();
 
         //maxCoins = coinNum;
@@ -207,6 +209,7 @@ public class GameManager : MonoBehaviour
 
         coinText.text = currentCoins + " ";
         coinTextEnd.text = currentCoins + " ";
+        coinTextGameOver.text = currentCoins + " ";
 
         xPText.text = " " + xPPoints;
     }

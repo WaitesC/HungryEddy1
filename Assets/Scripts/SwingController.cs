@@ -110,6 +110,19 @@ public class SwingController : MonoBehaviour
                 //player can move again
                 playerMovement.canMove = true;
             }
+            
+            if (Input.GetButtonDown("Tongue"))
+            {
+                animator.Play("Eddy_Idle");
+                //playerMovement.jump = true;
+                rb.constraints = RigidbodyConstraints2D.None;
+                rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+
+                //no longer swining
+                swinging = false;
+                //player can move again
+                playerMovement.canMove = true;
+            }
         }
 
     }

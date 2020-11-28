@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -23,7 +24,7 @@ public class PauseMenu : MonoBehaviour
     void Update()
     {
         //open pause menu
-        if(gameManager.inGame && !gameManager.paused)
+        if(gameManager.inGame && !gameManager.paused && !gameManager.gameHasEnded && !gameManager.onEndLevelScreen)
         {
             if (Input.GetButtonDown("Pause") &&  pressedButtonDown == false)
             {
@@ -44,6 +45,11 @@ public class PauseMenu : MonoBehaviour
                 pressedButtonDown = true;
                 gameManager.paused = false;
                 pauseMenu.SetActive(false);
+            }
+            
+            if (Input.GetButtonDown("Swing") && pressedButtonDown == false)
+            {
+                SceneManager.LoadScene("Main Menu");
             }
         }
 

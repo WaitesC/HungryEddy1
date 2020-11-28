@@ -45,7 +45,7 @@ public class CaterpillarUnit : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.name == "Spikes")
+        if (col.gameObject.tag == "Enemy")
         {
             rb.gravityScale = 0.0f;
 
