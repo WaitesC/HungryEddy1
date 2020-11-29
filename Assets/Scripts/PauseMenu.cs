@@ -47,7 +47,7 @@ public class PauseMenu : MonoBehaviour
                 pauseMenu.SetActive(false);
             }
             
-            if (Input.GetButtonDown("Swing") && pressedButtonDown == false)
+            if (Input.GetButtonDown("Menu") && pressedButtonDown == false)
             {
                 SceneManager.LoadScene("Main Menu");
             }
